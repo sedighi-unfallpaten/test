@@ -1,10 +1,13 @@
-body, html {
+body,
+html {
     font-family: 'Axiforma', sans-serif;
     line-height: 1.5;
 }
+
 .fa-angle-down:before {
     content: "\2193";
 }
+
 .fa-angle-up:before {
     content: "\f106";
 }
@@ -25,8 +28,8 @@ body, html {
     top: 35px;
     margin-left: 25px;
     margin-right: 25px;
-
 }
+
 .nav-login-button {
     width: 142px;
     height: 34px;
@@ -42,6 +45,7 @@ body, html {
 .nav-login-button:hover {
     color: #000000;
 }
+
 .login-button:hover {
     background: #faa245;
     border: none;
@@ -108,9 +112,8 @@ body, html {
     transition: 0.3s;
 }
 
-
-
-.overlay a:hover, .overlay a:focus {
+.overlay a:hover,
+.overlay a:focus {
     color: #f39732;
 }
 
@@ -120,9 +123,11 @@ body, html {
     right: 45px;
     font-size: 60px;
 }
+
 .war {
     font-size: 23px;
 }
+
 .color {
     color: #fff;
 }
@@ -132,7 +137,6 @@ body, html {
 }
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
-
     .nav-bar {
         font-size: 23px;
         color: black;
@@ -142,7 +146,6 @@ body, html {
         top: 16px;
         /* width: 100%; */
     }
-
     .nav-bar a {
         color: black;
         float: right;
@@ -151,7 +154,6 @@ body, html {
         display: block;
         float: left;
     }
-
     .nav-logo-mobile img {
         height: 28px;
     }
@@ -161,7 +163,6 @@ body, html {
     .overlay a {
         font-size: 20px
     }
-
     .overlay .closebtn {
         font-size: 65px;
         top: -25px;
@@ -177,12 +178,9 @@ body, html {
         top: 0px;
         margin: auto;
     }
-
-}    
-
+}
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
-
     .nav-bar {
         font-size: 30px;
         color: black;
@@ -190,7 +188,6 @@ body, html {
         padding: 8px;
         width: 100%;
     }
-
     .nav-bar a {
         color: black;
         float: right;
@@ -199,7 +196,6 @@ body, html {
         display: block;
         float: left;
     }
-
     .nav-logo-mobile img {
         height: 28px;
     }
@@ -209,7 +205,6 @@ body, html {
     .overlay a {
         font-size: 20px
     }
-
     .overlay .closebtn {
         font-size: 65px;
         top: -25px;
@@ -224,12 +219,9 @@ body, html {
         padding: 12px;
         border-radius: 24px;
     }
-
-
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
     .nav-bar {
         font-size: 30px;
         color: black;
@@ -237,28 +229,23 @@ body, html {
         padding: 20px;
         width: 100%;
     }
-
     .nav-bar a {
         color: black;
         float: right;
     }
-
     .nav-logo-mobile {
         display: block;
         float: left;
     }
-
     .nav-logo-mobile img {
         height: 41px;
     }
     .nav-logo-overlay {
         float: none;
     }
-
     .overlay a {
         font-size: 20px
     }
-
     .overlay .closebtn {
         font-size: 40px;
         top: 15px;
@@ -274,61 +261,59 @@ body, html {
         top: 0;
         margin: auto;
     }
-
-}    
+}
 
 .er {
-
     display: none;
-            
 }
 
 @media (min-width: 20px) and (max-width: 766px) {
-
     .er {
-
         display: block;
-                
     }
-    
 }
+
 
 /*ab hier wird die neue version von der Datei Schaden-melden bearbeitet*/
+
 html {
     scroll-behavior: smooth;
-
 }
+
 .coool {
     font-weight: bolder !important;
     text-align: center;
     margin-top: 30px;
 }
+
 .col h1 {
     margin-top: 15px;
     font-size: 36px;
     text-align: center;
 }
- .h1 {
+
+.h1 {
     margin-top: 130px;
     font-size: 36px;
     text-align: center;
     font-weight: 400;
-
 }
+
 .content p {
     text-align: center;
 }
 
 .text-center button {
-    margin-bottom: 50px;
+    margin-bottom: 34px;
 }
-.pb-5 h1 {
 
+.pb-5 h1 {
     margin-top: 140px;
     font-size: 33px;
     text-align: center;
     box-sizing: border-box;
 }
+
 .col {
     padding-left: 16px !important;
     padding-right: 16px !important;
@@ -342,12 +327,13 @@ html {
     margin-top: -10px !important;
     margin-bottom: 30px !important;
 }
+
 .neww {
-
     padding-left: 16px !important;
-padding-right: 16px !important;
-
+    padding-right: 16px !important;
 }
+
+
 /* .colo, .colo2 {
     color: rgb(243, 151, 50);
 }
@@ -356,7 +342,7 @@ padding-right: 16px !important;
     color: #fff !important;
 } */
 
- .colo2 {
+.colo2 {
     color: rgb(243, 151, 50);
 }
 
@@ -365,6 +351,7 @@ padding-right: 16px !important;
     background: #373737;
     border: 1px solid;
 }
+
 .schwa:hover {
     color: #ffffff;
     background: rgb(243, 151, 50);
@@ -376,27 +363,26 @@ padding-right: 16px !important;
     color: #ffffff;
     background: rgb(243, 151, 50);
     border: 1px solid;
-
 }
 
 .report-new .form-control-new {
-    
     border-radius: 5px;
     margin-bottom: 25px;
     border: 1px solid #ffffff;
     border-radius: 22px;
-
 }
+
 .pt-5 {
     margin-bottom: 15px;
-
 }
+
 .test-pla ::placeholder {
     font-size: 16.1px !important;
 }
+
 .new-button {
     width: 120px !important;
-    font-family:'Axiforma' !important ;
+    font-family: 'Axiforma' !important;
     border-radius: 20px !important;
     border: 3px solid rgb(243, 151, 50) !important;
     padding: 0.5px 30px !important;
@@ -410,6 +396,7 @@ padding-right: 16px !important;
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
+
 .new-button:hover {
     background: #f8f8f8;
     border: none;
@@ -417,76 +404,63 @@ padding-right: 16px !important;
 }
 
 .new-home {
-
-    font-family:'Axiforma' !important ;
+    font-family: 'Axiforma' !important;
     color: #343434 !important;
     text-align: center !important;
     font-size: 19px !important;
     font-weight: 400 !important;
     padding-right: 4px !important;
-
 }
 
 .nav-bar {
     position: inherit;
 }
+
 .new-logo-schaden {
     margin-top: 24px;
     margin-bottom: 24px;
     position: relative;
     left: 5.4px;
     align-items: center;
-    text-align: center; 
+    text-align: center;
     float: none;
-
 }
-
 
 .new-logo-schaden-mobile {
     display: none;
 }
 
-
-
 @media (max-width: 980px) {
-
     .new-logo-schaden {
         display: none;
-    
     }
-
     .new-logo-schaden-mobile {
         display: block;
     }
-    
-    
 }
-
 
 @media (max-width: 980px) {
     .box {
-
         display: grid;
         margin-top: 25px;
         margin-bottom: 25px;
-
     }
     .box a {
-
         margin-top: 5px;
         margin-bottom: 5px;
-
     }
-    
 }
 
 .abschicken-logo {
-
     margin-top: 8px;
     /* margin-bottom: 5px; */
-    
     text-align: center;
     align-items: center;
     position: relative;
-    
+}
+
+@media screen and (max-width: 750px) {
+    .mobi {
+        width: 29%;
+    }
 }
