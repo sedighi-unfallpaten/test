@@ -4,12 +4,12 @@ var firstNameOpponentValid = false;
 var lastNameOpponentValid = false;
 var emailOpponentValid = false;
 var phoneOpponentValid = false;
-var dateOpponentValid = false;
-var vehicleLocationOpponentValid = false;
+// var dateOpponentValid = false;
+// var vehicleLocationOpponentValid = false;
 
 
 function testOpponent() {
-    if (firstNameOpponentValid && lastNameOpponentValid && emailOpponentValid && phoneOpponentValid && dateOpponentValid && vehicleLocationOpponentValid) {
+    if (firstNameOpponentValid && lastNameOpponentValid && emailOpponentValid && phoneOpponentValid) {
         $("#submit-opponent").prop("disabled", false);
         $("#submit-opponent").css("cursor", "pointer");
     } else {
@@ -23,11 +23,11 @@ function testOpponent() {
 var firstNameUnclearValid = false;
 var lastNameUnclearValid = false;
 var emailUnclearValid = false;
-var phoneUnclearValid = false;
-var vehicleLocationUnclearValid = false;
+// var phoneUnclearValid = false;
+// var vehicleLocationUnclearValid = false;
 
 function testUnclear() {
-    if (firstNameUnclearValid && lastNameUnclearValid && emailUnclearValid && phoneUnclearValid && vehicleLocationUnclearValid) {
+    if (firstNameUnclearValid && lastNameUnclearValid && emailUnclearValid && phoneUnclearValid) {
         $("#submit-unclear").prop("disabled", false);
         $("#submit-unclear").css("cursor", "pointer");
     } else {
@@ -36,7 +36,7 @@ function testUnclear() {
     }
 }
 
-$(document).ready(function () {
+$(document).ready(function() {
 
     // opponent validation
 
@@ -102,26 +102,26 @@ $(document).ready(function () {
 
     // form submits
 
-    $("#form-input-opponent").submit(function (event) {
+    $("#form-input-opponent").submit(function(event) {
         event.preventDefault();
     });
 
-    $("#submit-opponent").click(function () {
+    $("#submit-opponent").click(function() {
         postOpponentAjaxRequest();
     });
 
-    $("#form-input-unclear").submit(function (event) {
+    $("#form-input-unclear").submit(function(event) {
         event.preventDefault();
     });
 
-    $("#submit-unclear").click(function () {
+    $("#submit-unclear").click(function() {
         postUnclearAjaxRequest();
     });
 });
 
 function postOpponentAjaxRequest() {
 
-    $(document).ajaxStart(function () {
+    $(document).ajaxStart(function() {
         Pace.restart();
     });
     var overlay = $("#overlay");
@@ -129,7 +129,7 @@ function postOpponentAjaxRequest() {
     overlay.show();
 
     setTimeout(
-        function () {
+        function() {
             $("#submit-opponent").prop("disabled", true);
             var formData = $('form[name=form-input-opponent]').serialize();
 
@@ -138,7 +138,7 @@ function postOpponentAjaxRequest() {
                 contentType: 'application/x-www-form-urlencoded',
                 url: "https://c1mntyc8ac.execute-api.eu-central-1.amazonaws.com/unfallpaten-service/api/assessments/advice/opponent",
                 data: formData,
-                complete: function (xhr, status) {
+                complete: function(xhr, status) {
                     if (xhr.readyState === 4 && xhr.status === 200) {
                         location.replace("https://www.unfallpaten.de/erfolg.html");
                     } else {
@@ -151,7 +151,7 @@ function postOpponentAjaxRequest() {
 
 function postUnclearAjaxRequest() {
 
-    $(document).ajaxStart(function () {
+    $(document).ajaxStart(function() {
         Pace.restart();
     });
     var overlay = $("#overlay");
@@ -159,7 +159,7 @@ function postUnclearAjaxRequest() {
     overlay.show();
 
     setTimeout(
-        function () {
+        function() {
             $("#submit-unclear").prop("disabled", true);
 
             $.ajax({
@@ -167,7 +167,7 @@ function postUnclearAjaxRequest() {
                 contentType: 'application/x-www-form-urlencoded',
                 url: "https://c1mntyc8ac.execute-api.eu-central-1.amazonaws.com/unfallpaten-service/api/assessments/advice/unclear",
                 data: $('form[name=form-input-unclear]').serialize(),
-                complete: function (xhr, status) {
+                complete: function(xhr, status) {
                     if (xhr.readyState === 4 && xhr.status === 200) {
                         location.replace("https://www.unfallpaten.de/erfolg.html");
                     } else {
@@ -177,5 +177,3 @@ function postUnclearAjaxRequest() {
             });
         }, 3000);
 }
-
-

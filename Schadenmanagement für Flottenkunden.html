@@ -4,6 +4,8 @@
 <head>
 
 
+
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -16,9 +18,11 @@
 
     <link rel="canonical" href="https://www.unfallpaten.de">
     <link rel="shortcut icon" href="assets/img/icons/favicon.png">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"> -->
 
     <link rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="assets/libs/pace/pace.css">
@@ -26,6 +30,9 @@
     <link rel="stylesheet" type="text/css" href="assets/css/new-style.css">
     <link rel="stylesheet" href="assets/css/drop.css">
     <link rel="stylesheet" href="assets/libs/font-awesome/dist/font-awesome.min.css">
+
+
+
 
 
     <!-- Google structured data. See https://developers.google.com/search/docs/guides/intro-structured-data -->
@@ -158,13 +165,14 @@
     </script>
 
 
+
     <div class="wrapper">
         <!-- Header Start -->
         <header id="wrap" class="mobile-sticky">
-            <div class="container">
+            <div class="tes2 container">
                 <nav class="navbar navbar-expand-md">
                     <a class="navbar-brand order-md-1 order-2" href="">
-                        <img class="new-ver imgobenrechts" src="assets/img/page/unfallpaten-logo.png" alt="">
+                        <img class="imgobenrechts" src="assets/img/page/unfallpaten-logo.png" alt="">
                     </a>
                     <div class="mobile-menu er">
                         <div class="nav-bar  er">
@@ -175,27 +183,28 @@
                             <a href="#"><span onclick="openNav()"><i class="war navio fa fa-bars"></i></span></a>
                         </div>
                     </div>
-                    <!-- <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="jaa navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon">
-                                <div class="m-btn"><i class="fas fa-bars"></i></div>
+                                <div class="m-btn"><i hidden class="fas fa-bars"></i></div>
                                 <img hidden class="imgobenlinks" src="assets/img/page/nav-bar.svg" alt="">
                             </span>
-                        </button> -->
+                        </button>
 
-                    <div class="new-ver gb collapse navbar-collapse order-md-2 order-4" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
+
+                    <div class="gb collapse navbar-collapse order-md-2 order-4" id="navbarSupportedContent">
+                        <ul class="jaa navbar-nav ml-auto">
                             <li class="nav-item active">
                                 <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="bl nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Service
-                                    </a>
+                                            Service
+                                        </a>
                                 <ul class="dropdown-menu navi" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="kfz-gutachter.html">vehicle appraiser</a>
-                                    <a class="dropdown-item" href="anwalt.html">attorney</a>
-                                    <a class="dropdown-item" href="werkstatt.html">workshop</a>
-                                    <a class="dropdown-item" href="ersatzwagen.html">replacement vehicle</a>
+                                    <a class="dropdown-item" href="kfz-gutachter.html">Kfz-Gutachter</a>
+                                    <a class="dropdown-item" href="anwalt.html">Anwalt</a>
+                                    <a class="dropdown-item" href="werkstatt.html">Werkstatt</a>
+                                    <a class="dropdown-item" href="ersatzwagen.html">Ersatzfahrzeug</a>
                                 </ul>
                             </li>
 
@@ -210,36 +219,80 @@
                             </li>
                         </ul>
 
+
                         <div>
-                            <a class="langimg" href="index.html"><img width="23" height="21" src="assets/img/logo/germany.png" alt=""></a>
+                            <a class="langimg" href="en.html"><img width="23" height="21" src="assets/img/logo/united-kingdom-new.png" alt=""></a>
 
                         </div>
                         <div>
-                            <a href="index.html"><i><span class="lang">Deutsch</span></i></a>
+                            <a href="en.html"><i><span class="lang">English</span></i></a>
 
                         </div>
-
-                        <!-- <button id="" class="bu"><a href="anwalt.html"></a>EN</button> -->
-                        <!-- <div>
-                                <a class="bu" href="index.html">DE</a>
-                    
-                            </div> -->
-
 
 
 
                     </div>
+
+
+
+
                     <a href="https://unfallpaten.de/portal/" class="user-dropdown dropdown order-3">
                         <img class="imgoben" src="assets/img/page/user-icon.svg" alt="">
                     </a>
 
                 </nav>
                 <div>
-                    <a class="buu" href="index.html"><img width="23" height="21" src="assets/img/logo/germany.png" alt=""></a>
+                    <a class="buu" href="en.html"><img width="23" height="21" src="assets/img/logo/united-kingdom-new.png" alt=""></a>
 
                 </div>
-
             </div>
+            <style>
+                @media (min-width:150px) and (max-width: 769px) {
+                    .mobile-sticky .buu img {
+                        bottom: 15px !important;
+                        position: relative !important;
+                    }
+                }
+                
+                @media (min-width:150px) and (max-width: 769px) {
+                    header.navtop .buu img {
+                        bottom: 28px !important;
+                        position: relative !important;
+                    }
+                }
+                
+                @media (min-width:150px) and (max-width: 769px) {
+                    .imgoben {
+                        bottom: 4px !important;
+                        position: relative !important;
+                    }
+                    header.navtop .imgoben {
+                        bottom: 18px !important;
+                        position: relative !important;
+                    }
+                    .navio {
+                        position: relative !important;
+                        bottom: -2px !important;
+                    }
+                    header.navtop .navio {
+                        position: relative !important;
+                        top: -14px !important;
+                    }
+                }
+                
+                @media (min-width:100px) and (max-width: 440px) {
+                    .mobile-sticky .buu img {
+                        right: 38px !important;
+                        position: relative !important;
+                    }
+                    .imgoben {
+                        left: 3px !important;
+                        position: relative !important;
+                    }
+                }
+            </style>
+
+
 
             <div id="pagenav" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -267,49 +320,12 @@
                 </div>
             </div>
 
+
         </header>
         <style>
-            @media (min-width:150px) and (max-width: 769px) {
-                .mobile-sticky .buu img {
-                    bottom: 15px !important;
-                    position: relative !important;
-                }
-            }
-            
-            @media (min-width:150px) and (max-width: 769px) {
-                header.navtop .buu img {
-                    bottom: 28px !important;
-                    position: relative !important;
-                }
-            }
-            
-            @media (min-width:150px) and (max-width: 769px) {
-                .imgoben {
-                    bottom: 4px !important;
-                    position: relative !important;
-                }
-                header.navtop .imgoben {
-                    bottom: 18px !important;
-                    position: relative !important;
-                }
-                .navio {
-                    position: relative !important;
-                    bottom: -2px !important;
-                }
-                header.navtop .navio {
-                    position: relative !important;
-                    top: -14px !important;
-                }
-            }
-            
-            @media (min-width:100px) and (max-width: 440px) {
-                .mobile-sticky .buu img {
-                    right: 38px !important;
-                    position: relative !important;
-                }
-                .imgoben {
-                    left: 3px !important;
-                    position: relative !important;
+            @media (max-width: 720px) {
+                .jaa {
+                    display: none;
                 }
             }
         </style>
@@ -317,24 +333,24 @@
         <!-- Header Start -->
 
         <!-- Banner Start -->
-        <div class="banner">
+        <div class="banner" style="background: #F4F4F4;">
             <div class="container">
                 <div class="banner-content">
                     <h1>Was tun bei Autounfall? Hilfe beim Totalschaden Auto. Brauche Kfz-Gutachter und Unfallgutachten in der Nähe vom Sachverständiger Kfz für Schadensregulierung mit Kfz-Versicherung Gegner</h1>
-                    <h2>Accident report to replacement vehicle</h2>
-                    <p>Claims settlement from a single source</p>
+                    <h2>Unfallgutachten bis&nbsp;Ersatzwagen</h2>
+                    <p>Schadenabwicklung aus&nbsp;einer&nbsp;Hand</p>
                     <div class="banner-btn">
-                        <a href="tel:08005055050">Call now</a>
-                        <a href="schaden-melden.html">Report digitally</a>
+                        <a href="tel:08005055050">Jetzt anrufen</a>
+                        <a href="schaden-melden.html">Digital melden</a>
                     </div>
                     <ul>
-                        <li class="active">24h immediate help</li>
-                        <li>Free for injured parties</li>
-                        <li>Fewer cuts</li>
-                        <li>Independently</li>
+                        <li class="active">24h Sofort-Hilfe</li>
+                        <li>Kostenlos für Geschädigte</li>
+                        <li>Weniger Kürzungen</li>
+                        <li>Unabhängig</li>
                     </ul>
-                    <img class="banner-desktop-img" src="assets/img/page/crash_new.jpg" alt="">
-                    <img class="banner-mobile-img" src="assets/img/page/crashedcar-mobile.png" alt="">
+                    <img class="banner-desktop-img" src="assets/img/page/auto-letzte.png" alt="">
+                    <img class="ersatz banner-mobile-img" src="assets/img/page/auto-letzte.png" alt="">
                 </div>
             </div>
             <a href="tel:08005055050" class="call-now"><i class="fa fa-phone" aria-hidden="true"></i> 0800 505 50 50</a>
@@ -346,7 +362,7 @@
             <section class="claims-settlement-wrap">
                 <div class="container">
                     <div class="claims-settlement-content">
-                        <p>No. 1 in car accidents!</p>
+                        <p>Nr. 1 bei Autounfällen!</p>
                         <ul>
                             <li><img class="bild1" src="assets/img/siegel/provenexpert-old.png" alt=""></li>
                             <li><img class="bild2" src="assets/img/siegel/service-siegel.png" alt=""></li>
@@ -362,7 +378,7 @@
             <section class="handling-accident-step-wrap">
                 <div class="container">
                     <div class="handling-accident-step">
-                        <h2>In <span>3 steps</span> to accident processing</h2>
+                        <h2>In <span>3 Schritten</span> zur&nbsp;Unfallabwicklung</h2>
                         <div class="row handling-accident-step-row">
                             <div class="col-md-4 handling-accident-step-col">
                                 <div class="handling-accident-step-img">
@@ -370,11 +386,11 @@
                                 </div>
                                 <div class="handling-accident-step-accordian">
                                     <a href="javascript:void(0);" class="handling-accident-step-heading">
-                                        damage report
-
+                                        Schadensmeldung
                                     </a>
                                     <div class="handling-accident-step-content">
-                                        <p>Simply report your vehicle damage digitally using our contact form and we will get in touch with you immediately - or call our hotline directly. If you are injured, the liability insurance will cover the costs</p>
+                                        <p>Melde deinen Kfz-Schaden ganz einfach digital über unser Kontaktformular und wir setzen uns sofort mit dir in Verbindung – oder ruf direkt unsere Hotline an. Wenn du Geschädigter bist übernimmt die haftende Versicherung
+                                            die Kosten</p>
                                     </div>
                                 </div>
                             </div>
@@ -384,11 +400,12 @@
                                 </div>
                                 <div class="handling-accident-step-accordian">
                                     <a href="javascript:void(0);" class="handling-accident-step-heading">
-                                        order processing
+                                        Auftragsabwicklung
                                     </a>
                                     <div class="handling-accident-step-content">
-                                        <p> Once we have all the information about your car accident, we will immediately take further steps to ensure the fastest possible claims settlement. This includes an independent vehicle appraiser, experienced legal
-                                            counsel or a replacement vehicle for your vehicle appraisal, as required</p>
+                                        <p> Nachdem wir alle Informationen zu deinem Autounfall haben, leiten wir umgehend weitere Schritte ein, um die schnellstmögliche Schadenabwicklung zu gewährleisten. Dieses beinhaltet nach Wunsch einen unabhängigen
+                                            Kfz-Gutachter, versierten Rechtsbeistand oder ein Ersatzfahrzeug zu deinem Kfz-Gutachten
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -398,11 +415,12 @@
                                 </div>
                                 <div class="handling-accident-step-accordian">
                                     <a href="javascript:void(0);" class="handling-accident-step-heading">
-                                        assumption of costs
+                                        Kostenübernahme
                                     </a>
                                     <div class="handling-accident-step-content">
-                                        <p>You can have the amount of damage paid out to you. Alternatively, you have the option of handing in your damaged vehicle to the workshop of your choice. The legal adviser will take care of the assumption of costs
-                                            by the insurance company. If you do not know a specialist workshop, we will be happy to refer you to a specialist workshop</div>
+                                        <p>Du kannst dir die Schadensumme auszahlen lassen. Alternativ hast du die Möglichkeit, dein beschädigtes Fahrzeug bei der Werkstatt deiner Wahl abzugeben. Der Rechtsbeistand kümmert sich um die Kostenübernahme der
+                                            Versicherung. Wenn du keine Fachwerkstatt kennst, leiten wir dich gerne an eine Fachwerkstatt weiter</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -412,13 +430,13 @@
             <section class="accident-sponsors-wrap">
                 <div class="container">
                     <div class="accident-sponsors-content counter-wrap">
-                        <h3 class="scrollanimation">Why the accident sponsors?</h3>
+                        <h3 class="scrollanimation">Warum die Unfallpaten?</h3>
                         <div class="row accident-sponsors-row">
                             <div class="col-6 col-md-3 accident-sponsors-col">
                                 <div class="accident-sponsors-content-inner">
-                                    <h3>more than</h3>
+                                    <h3>mehr als</h3>
                                     <h2><span class="count">10000</span></h2>
-                                    <h3>successful accident settlements
+                                    <h3>erfolgreiche Unfallabwicklungen
 
 
                                     </h3>
@@ -426,25 +444,25 @@
                             </div>
                             <div class="col-6 col-md-3 accident-sponsors-col">
                                 <div class="accident-sponsors-content-inner">
-                                    <h3>up to</h3>
+                                    <h3>bis zu</h3>
                                     <h2><span class="count">30</span>%</h2>
-                                    <h3>higher damage amount
+                                    <h3>höhere Schadensumme
                                     </h3>
                                 </div>
                             </div>
                             <div class="col-6 col-md-3 accident-sponsors-col">
                                 <div class="accident-sponsors-content-inner">
-                                    <h3>average</h3>
+                                    <h3>durchschnittlich</h3>
                                     <h2><span class="count">3500</span> €</h2>
-                                    <h3>right to reimbursement
+                                    <h3>Anspruch auf Rückzahlung
                                     </h3>
                                 </div>
                             </div>
                             <div class="col-6 col-md-3 accident-sponsors-col">
                                 <div class="accident-sponsors-content-inner">
-                                    <h3>up to</h3>
+                                    <h3>bis zu</h3>
                                     <h2><span class="count">40</span>%</h2>
-                                    <h3>faster payout
+                                    <h3>schnellere Auszahlung
                                     </h3>
                                 </div>
                             </div>
@@ -456,7 +474,7 @@
                 <div class="container">
                     <div class="all-services-content">
                         <h2>All-in-one Service</h2>
-                        <h3>Many years of experience with a nationwide network</h3>
+                        <h3>langjährige Erfahrung mit bundesweitem&nbsp;Netzwerk</h3>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="our-services">
@@ -465,12 +483,11 @@
                                     </div>
                                     <div class="our-services-content">
                                         <a href="kfz-gutachter.html">
-                                            <h3>vehicle appraiser</h3>
+                                            <h3>Kfz-Gutachter</h3>
                                         </a>
-                                        <p>We'll provide you with <a class="qua" href="ersatzwagen.html">onequalifiedMotor</a> vehicle appraiser who assesses your damage and calculates it precisely. An independent accident report from a motor vehicle appraiser
-                                            is the be-all and end-all of successful claims settlement
+                                        <p>Wir stellen dir einen <a class="qua" href="ersatzwagen.html">qualifizierten</a> Kfz-Gutachter, der deinen Schaden begutachtet und genau kalkuliert. Ein unabhängiges Unfallgutachten vom Kfz-Gutachter ist das A und
+                                            O einer erfolgreichen Schadenabwicklung
                                         </p>
-
                                     </div>
                                 </div>
                             </div>
@@ -481,9 +498,9 @@
                                     </div>
                                     <div class="our-services-content">
                                         <a href="anwalt.html">
-                                            <h3>attorney</h3>
+                                            <h3>Anwalt</h3>
                                         </a>
-                                        <p>Communicating with the opposing insurance company is very tedious and tedious. We provide you with technical experts to enforce your claim quickly and easily</p>
+                                        <p>Die Kommunikation mit der gegnerischen Versicherung ist sehr anstrengend und langwierig. Wir stellen dir Fachexperten zur Seite, um deinen Anspruch schnell und unkompliziert durchzusetzen</p>
                                     </div>
                                 </div>
                             </div>
@@ -494,10 +511,10 @@
                                     </div>
                                     <div class="our-services-content">
                                         <a href="ersatzwagen.html">
-                                            <h3>replacement vehicle</h3>
+                                            <h3>Ersatzfahrzeug</h3>
 
                                         </a>
-                                        <p>If your damaged vehicle is not roadworthy, you are entitled to a replacement vehicle after the accident from day one and for the necessary duration. The right vehicle can be delivered to your home on request</p>
+                                        <p>Ist dein beschädigtes Fahrzeug nicht verkehrssicher, steht dir vom ersten Tag an und für die notwendige Dauer ein Ersatzfahrzeug nach Unfall zu. Das passende Fahrzeug wird auf Wunsch zu dir nach Hause geliefert</p>
                                     </div>
                                 </div>
                             </div>
@@ -508,10 +525,10 @@
                                     </div>
                                     <div class="our-services-content">
                                         <a href="werkstatt.html">
-                                            <h3>workshop</h3>
+                                            <h3>Werkstatt</h3>
                                         </a>
 
-                                        <p>As your accident sponsors, we can optionally forward you to a specialist workshop near you for professional repairs. This settles directly with the insurance company of the person who caused the accident
+                                        <p>Wir als deine Unfallpaten leiten dich optional für eine fachgerechte Reparatur an eine Fachwerkstatt in deiner Nähe weiter. Diese rechnet direkt mit der Versicherung des Unfallverursachers ab
                                         </p>
                                     </div>
                                 </div>
@@ -523,11 +540,11 @@
             <section class="free-accident-handling-wrap">
                 <div class="container">
                     <div class="free-accident-handling-content">
-                        <h3>Free Accident Handling</h3>
-                        <p>As an injured party, you do not have to make any financial advance payments, nor will the costs be deducted from your loss amount later</p>
+                        <h3>Kostenlose Unfallabwicklung</h3>
+                        <p>Als Geschädigter musst du weder finanziell in Vorleistung gehen, noch werden dir die Kosten später von deiner Schadensumme abgezogen</p>
                         <ul class="free-accident-handling-btn">
-                            <li><a href="tel:08005055050">Call now</a></li>
-                            <li><a href="schaden-melden.html">Report digitally</a></li>
+                            <li><a href="tel:08005055050">Jetzt anrufen</a></li>
+                            <li><a href="schaden-melden.html">Digital melden</a></li>
                         </ul>
                     </div>
                 </div>
@@ -537,10 +554,10 @@
                     <div class="insurance-claim-content">
                         <img src="assets/img/page/claim-insurance.png" alt="">
                         <div class="insurance-claim-content-inner">
-                            <h3>Don't worry about the insurance!</h3>
-                            <p>the opposing oneinsurance <a class="versicherung" href="">Experience</a> has shown that we try to keep the costs of the accident report as low as possible: This starts with in-house vehicle experts, who assess the damage caused
-                                more in favor of the insurance company. The job is mediated to a partner workshop with dumping wages. Depreciation of the car is often not taken into account. You avoid all this by involving us from the start. Preferably
-                                right after the accident.
+                            <h3>Lass dich nicht auf die Versicherung ein!</h3>
+                            <p>Die gegnerische <a class="versicherung" href="">Versicherung</a> versucht erfahrungsgemäß die Kosten des Unfallgutachtens so gering wie möglich zu halten: Das beginnt schon mit hausinternen Kfz-Gutachtern, die den verursachten
+                                Schaden eher zu Gunsten der Versicherung bewerten. Vermittelt wird auf eine Partnerwerkstatt mit Dumpinglöhnen. Wertminderungen des Autos werden oftmals nicht berücksichtigt. Das alles vermeidest du, indem du uns von Beginn
+                                an einschaltest. Am Besten direkt nach dem Unfall.
                             </p>
                         </div>
                     </div>
@@ -551,27 +568,27 @@
                     <div class="row opposing-insurance-row">
                         <div class="opposing-insurance-col order-md-1 order-1">
                             <div class="opposing-insurance-content">
-                                <h5><strong>On your own</strong></h5>
+                                <h5><strong>Auf eigene Faust</strong></h5>
                                 <ul>
                                     <li>
                                         <img src="assets/img/page/close.png" alt="">
                                         <div class="opposing-insurance-content-inner">
-                                            <h6>quality</h6>
-                                            <p>Extensive search<br> for technical experts</p>
+                                            <h6>Qualität</h6>
+                                            <p>Aufwändige Suche <br> nach Fachexperten</p>
                                         </div>
                                     </li>
                                     <li>
                                         <img src="assets/img/page/close.png" alt="">
                                         <div class="opposing-insurance-content-inner">
-                                            <h6>time</h6>
-                                            <p>Lengthy and <br> stressful process</p>
+                                            <h6>Zeit</h6>
+                                            <p>Langwieriger und <br> stressiger Prozess</p>
                                         </div>
                                     </li>
                                     <li>
                                         <img src="assets/img/page/close.png" alt="">
                                         <div class="opposing-insurance-content-inner">
-                                            <h6>transparency</h6>
-                                            <p>No status updates</p>
+                                            <h6>Transparenz</h6>
+                                            <p>Keine Statusupdates</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -584,58 +601,55 @@
                                     <li>
                                         <img src="assets/img/page/check.png" alt="">
                                         <div class="opposing-insurance-content-inner">
-                                            <h6>quality</h6>
-                                            <p>Proven subject matter experts <br> with experience</p>
+                                            <h6>Qualität</h6>
+                                            <p>Bewährte Fachexperten <br> mit Erfahrung</p>
                                         </div>
                                     </li>
                                     <li>
                                         <img src="assets/img/page/check.png" alt="">
                                         <div class="opposing-insurance-content-inner">
-                                            <h6>time</h6>
-                                            <p>No personal effort
-                                                <br> faster enforcement</p>
+                                            <h6>Zeit</h6>
+                                            <p>Kein Eigenaufwand <br> schnellere Durchsetzung</p>
                                         </div>
                                     </li>
                                     <li>
                                         <img src="assets/img/page/check.png" alt="">
                                         <div class="opposing-insurance-content-inner">
-                                            <h6>transparency</h6>
-                                            <p> status updates</p>
+                                            <h6>Transparenz</h6>
+                                            <p> Statusupdates</p>
                                         </div>
                                     </li>
                                 </ul>
                                 <div class="opposing-insurance-btn">
-                                    <a href="tel:08005055050">Call up</a>
-                                    <a href="schaden-melden.html">Report digitally</a>
+                                    <a href="tel:08005055050">Anrufen</a>
+                                    <a href="schaden-melden.html">Digital melden</a>
                                 </div>
                             </div>
                         </div>
                         <div class="opposing-insurance-col order-md-3 order-2">
                             <div class="opposing-insurance-content">
-                                <h5><strong>insurance</strong></h5>
+                                <h5><strong>Versicherung</strong></h5>
                                 <ul>
                                     <li>
                                         <img src="assets/img/page/close.png" alt="">
                                         <div class="opposing-insurance-content-inner">
-                                            <h6>quality</h6>
-                                            <p>Conflict of interest<br> due to self-commissioning</p>
+                                            <h6>Qualität</h6>
+                                            <p>Interessenskonflikt <br> da Eigenbeauftragung</p>
                                         </div>
                                     </li>
                                     <li>
                                         <img src="assets/img/page/close.png" alt="">
                                         <div class="opposing-insurance-content-inner">
-                                            <h6>time</h6>
-                                            <p>Elaborate <br> communication channels
+                                            <h6>Zeit</h6>
+                                            <p>Aufwändige <br> Kommunikationswege
                                             </p>
                                         </div>
                                     </li>
                                     <li>
                                         <img src="assets/img/page/close.png" alt="">
                                         <div class="opposing-insurance-content-inner">
-                                            <h6>transparency</h6>
-                                            <p>No status updates
-
-                                            </p>
+                                            <h6>Transparenz</h6>
+                                            <p>Keine Statusupdates</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -647,7 +661,7 @@
             <section class="customers-say-wrap">
                 <div class="container">
                     <div class="customers-say-content">
-                        <h2>That's what customers say</h2>
+                        <h2>Das sagen Kunden</h2>
                         <div class="customers-say-slider customers-say-slider-desktop">
                             <div class="customers-say-slide">
                                 <div class="customers-say-slide-content">
@@ -657,7 +671,7 @@
                                     </a>
                                     <div class="customers-say-slide-content-inner">
                                         <h3>Christopher M.</h3>
-                                        <p>„Very nice team. Every question was answered and everything went by itself until the payout.I'm very satisfied and it's free of charge!“</p>
+                                        <p>„Sehr nettes Team. Jede Frage wurde beantwortet und bis zur Auszahlung ging alles wie von alleine. Ich bin sehr zufrieden und das kostenlos!“</p>
                                     </div>
                                 </div>
                                 <div class="customers-say-slide-content">
@@ -667,8 +681,7 @@
                                     </a>
                                     <div class="customers-say-slide-content-inner">
                                         <h3>Uwe u. Gisela M.</h3>
-                                        <p>“We had a complicated accident. To our surprise, the release came after just two weeks. That makes you happy. Now our camping trip can finally begin.”
-                                        </p>
+                                        <p>„Wir hatten einen komplizierten Unfall. Zu unserer Überraschung kam die Freigabe bereits nach zwei Wochen. Da freut man sich. Nun kann endlich unsere Camping Reise beginnen.“</p>
                                     </div>
                                 </div>
                             </div>
@@ -680,7 +693,7 @@
                                     </a>
                                     <div class="customers-say-slide-content-inner">
                                         <h3>Maria H.</h3>
-                                        <p>„You guys are awesome!!Thank you very much for the smooth transaction, you were my rescue.“</p>
+                                        <p>„Ihr seid der Hammer!! Vielen vielen Dank für die reibungslose Abwicklung, ihr wart meine Rettung.“</p>
                                     </div>
                                 </div>
                                 <div class="customers-say-slide-content">
@@ -690,7 +703,7 @@
                                     </a>
                                     <div class="customers-say-slide-content-inner">
                                         <h3>Roman P.</h3>
-                                        <p>“I got involved with the insurance company, who underestimated my car. The accident sponsors helped me to get the right value. You are the best!"</p>
+                                        <p>„Ich hatte mich auf die Versicherung eingelassen, die mein Auto mit zu wenig bewerteten. Die Unfallpaten halfen mir den richtigen Wert zu bekommen. Ihr seid die Besten!“</p>
                                     </div>
                                 </div>
                             </div>
@@ -704,7 +717,7 @@
                                     </a>
                                     <div class="customers-say-slide-content-inner">
                                         <h3>Maria H.</h3>
-                                        <p>„You guys are awesome!!Thank you very much for the smooth transaction, you were my rescue.“</p>
+                                        <p>„Ihr seid der Hammer!! Vielen vielen Dank für die reibungslose Abwicklung, ihr wart meine Rettung.“</p>
                                     </div>
                                 </div>
                             </div>
@@ -716,7 +729,7 @@
                                     </a>
                                     <div class="customers-say-slide-content-inner">
                                         <h3>Christopher M.</h3>
-                                        <p>„Very nice team. Every question was answered and everything went by itself until the payout.I'm very satisfied and it's free of charge!“</p>
+                                        <p>„Sehr nettes Team. Jede Frage wurde beantwortet und bis zur Auszahlung ging alles wie von alleine. Ich bin sehr zufrieden und das kostenlos!“</p>
                                     </div>
                                 </div>
                             </div>
@@ -728,8 +741,7 @@
                                     </a>
                                     <div class="customers-say-slide-content-inner">
                                         <h3>Uwe u. Gisela M.</h3>
-                                        <p>“We had a complicated accident. To our surprise, the release came after just two weeks. That makes you happy. Now our camping trip can finally begin.”
-                                        </p>
+                                        <p>„Wir hatten einen komplizierten Unfall. Zu unserer Überraschung kam die Freigabe bereits nach zwei Wochen. Da freut man sich. Nun kann endlich unsere Camping Reise beginnen.“</p>
                                     </div>
                                 </div>
                             </div>
@@ -753,11 +765,11 @@
                 <div class="container">
                     <div class="stay-in-touch-content">
                         <h3>Stay in touch</h3>
-                        <p>Subscribe to the newsletter and we will keep you up to date with the latest information</p>
+                        <p>Melde dich im Newsletter an und wir halten dich mit aktuellen Informationen auf dem Laufenden</p>
                         <form method="post" id="newsletter" name="newsletter">
-                            <input type="email" id="email" name="email" class="form-control" placeholder="E-mail address" required aria-label="Email Adresse">
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Email Adresse" required aria-label="Email Adresse">
                             <div class="input-group-append">
-                                <button type="submit" class="btn btn-outline-secondary stay-in-touch-button" id="submit-newsletter" name="submit-newsletter">Register
+                                <button type="submit" class="btn btn-outline-secondary stay-in-touch-button" id="submit-newsletter" name="submit-newsletter">Anmelden
                                 </button>
                             </div>
                         </form>
@@ -772,17 +784,17 @@
                     <a href="#" class="footer-logo">
                         <img src="assets/img/page/unfallpaten-logo-white.png" alt="">
                     </a>
-                    <p>Your godfather for your insurance claim</p>
+                    <p>Dein Pate für dein Anspruch bei der Versicherung</p>
                     <div class="footer-link-wrap">
                         <div class="footer-link-content">
-                            <h5>Further information</h5>
+                            <h5>Weitere Infos</h5>
                             <ul>
                                 <li><a href="faq.html">FAQ</a></li>
                                 <li><a href="https://www.unfallpaten.de/blog/">Blog</a></li>
-                                <li><a href="kfz-gutachter.html">vehicle appraiser</a></li>
-                                <li><a href="anwalt.html">attorney</a></li>
-                                <li><a href="werkstatt.html">workshop</a></li>
-                                <li><a href="ersatzwagen.html">replacement vehicle</a></li>
+                                <li><a href="kfz-gutachter.html">Kfz-Gutachter</a></li>
+                                <li><a href="anwalt.html">Anwalt</a></li>
+                                <li><a href="werkstatt.html">Werkstatt</a></li>
+                                <li><a href="ersatzwagen.html">Ersatzfahrzeug</a></li>
                                 <!-- <li><a href="#">Freunde werben</a></li>
                                 <li><a href="#">Partner werden</a></li>
                                 <li><a href="#">Offene Stellen</a></li>
@@ -790,7 +802,7 @@
                             </ul>
                         </div>
                         <div class="footer-link-content">
-                            <h5>our locations</h5>
+                            <h5>Unsere Standorte</h5>
                             <ul>
                                 <li><a href="hamburg.html">Hamburg</a></li>
                                 <li><a href="berlin.html">Berlin</a></li>
@@ -821,7 +833,7 @@
                         </div>
 
                         <div class="new-version footer-social-wrap">
-                            <h6>Follow us!</h6>
+                            <h6>Folge uns!</h6>
                             <ul>
                                 <li>
                                     <a href="https://www.instagram.com/unfallpaten/" target="_blank"><img class="neeig" src="assets/img/page/instagram-icon.svg" alt=""></a>
@@ -833,10 +845,9 @@
                         </div>
                     </div>
                     <ul class="footer-other-link-wrap">
-                        <li><a href="impressum.html">imprint
-                        </a></li>
-                        <li><a href="datenschutz.html">privacy</a></li>
-                        <li><a href="agb.html">Conditions</a></li>
+                        <li><a href="impressum.html">Impressum</a></li>
+                        <li><a href="datenschutz.html">Datenschutz</a></li>
+                        <li><a href="agb.html">AGB</a></li>
                     </ul>
                 </div>
                 <button id="scrolli"><i class="fa fa-arrow-up"></i></button>
@@ -871,7 +882,7 @@
                 <div>
                     <ul>
                         <li>
-                            <p class="copyright">&copy; 2022 - Accident Sponsors</p>
+                            <p class="copyright">&copy; 2022 - Unfallpaten</p>
                         </li>
                     </ul>
                 </div>
@@ -894,6 +905,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/mobile-navigation.js"></script>
+
+
 
 </body>
 

@@ -1689,6 +1689,24 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     height: auto;
 }
 
+@media (min-width: 2900px) and (max-width: 3300px) {
+    .index2-banner.banner .banner-content img.banner-desktop-img {
+        top: 75.5px;
+        right: -4%;
+        width: 58.8%;
+        height: auto;
+    }
+}
+
+@media (min-width: 3301px) and (max-width: 4000px) {
+    .index2-banner.banner .banner-content img.banner-desktop-img {
+        top: 75.5px;
+        right: -4%;
+        width: 48.8%;
+        height: auto;
+    }
+}
+
 .does-it-work-wrap {
     background: #fff;
     padding: 59px 0 130px;
@@ -1946,21 +1964,30 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
 }
 
 .similar-services-wrap .verkehrsrecht-services .similar-services-content-inner {
-    background: url(../img/page/anwalt-verkehrsrecht.png) left top no-repeat;
-    background-size: cover;
+    background: url(../img/page/madammo.png) left top no-repeat;
+    background-size: 50%;
     background-position: 0px 2px;
+    background-color: #FF9D33;
+    background-position-x: center;
+    background-position-y: 60px;
 }
 
 .similar-services-wrap .gutachten-services .similar-services-content-inner {
-    background: url(../img/page/kfzgutachter-sachverstandiger.png) left top no-repeat;
-    background-size: cover;
+    background: url(../img/page/kfz--neu.png) left top no-repeat;
+    background-size: 52%;
     background-position: 0px 2px;
+    background-color: #FF9D33;
+    background-position-x: center;
+    background-position-y: 43px;
 }
 
 .similar-services-wrap .ersatzwagen-services .similar-services-content-inner {
-    background: url(../img/page/mietwagen-ersatzwagen.png) left top no-repeat;
-    background-size: cover;
+    background: url(../img/page/auto-letzte.png) left top no-repeat;
+    background-size: 110%;
     background-position: 0px 2px;
+    background-color: #FF9D33;
+    background-position-x: center;
+    background-position-y: 43px;
 }
 
 .similar-services-wrap .similar-services-content-inner h3 {
@@ -7268,5 +7295,27 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     .buu {
         bottom: 26px !important;
         position: relative !important;
+    }
+}
+
+@media (min-width: 1719px) and (max-width: 4000px) {
+    .new-version {
+        margin-top: 40px;
+    }
+}
+
+.new-ver {
+    margin-top: -15px;
+}
+
+@media (min-width: 50px) and (max-width: 450px) {
+    .new-ver {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 1601px) and (max-width: 4000px) {
+    .new-ver {
+        margin-top: -3.6px;
     }
 }
