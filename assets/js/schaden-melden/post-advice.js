@@ -62,14 +62,14 @@ $(document).ready(function() {
         testOpponent();
     });
 
-    $("#date-opponent").on('input', function() {
-        dateOpponentValid = $("#date-opponent").val().length > 0;
-        testOpponent();
-    });
-    $("#vehicle-location-opponent").on('input', function() {
-        vehicleLocationOpponentValid = $("#vehicle-location-opponent").val().length > 0;
-        testOpponent();
-    });
+    // $("#date-opponent").on('input', function() {
+    //     dateOpponentValid = $("#date-opponent").val().length > 0;
+    //     testOpponent();
+    // });
+    // $("#vehicle-location-opponent").on('input', function() {
+    //     vehicleLocationOpponentValid = $("#vehicle-location-opponent").val().length > 0;
+    //     testOpponent();
+    // });
 
     // unclear validation
 

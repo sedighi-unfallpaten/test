@@ -1,5 +1,5 @@
 var schadenMeldenStepper;
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function() {
     schadenMeldenStepper = new Stepper(document.querySelector('#schaden-melden-stepper'));
 });
 
@@ -13,14 +13,14 @@ function setWhiteBackground(id) {
     $(id).css("background-color", "white");
 }
 
-$(function () {
+$(function() {
     $("#form-unclear").hide();
     $("#form-opponent").hide();
     $("#form-self").hide();
     $("#opponent-call").hide();
 
 
-    $("#self").click(function () {
+    $("#self").click(function() {
         setWhiteBackground("#opponent");
         setWhiteBackground("#unclear");
         $("#self").css("background-color", "#f39732");
@@ -32,7 +32,7 @@ $(function () {
         enableStepperNextButton();
     });
 
-    $("#opponent").click(function () {
+    $("#opponent").click(function() {
         setWhiteBackground("#self");
         setWhiteBackground("#unclear");
         $("#opponent").css("background-color", "#f39732");
@@ -44,35 +44,33 @@ $(function () {
         enableStepperNextButton();
     });
 
-    $("#unclear").click(function () {
-            setWhiteBackground("#opponent");
-            setWhiteBackground("#self");
-            $("#unclear").css("background-color", "#f39732");
-            $("#form-unclear").show();
-            $("#form-opponent").hide();
-            $("#form-self").hide();
-            $("#form-send").show();
-            $("#opponent-call").show();
-            enableStepperNextButton();
-        }
-    );
+    $("#unclear").click(function() {
+        setWhiteBackground("#opponent");
+        setWhiteBackground("#self");
+        $("#unclear").css("background-color", "#f39732");
+        $("#form-unclear").show();
+        $("#form-opponent").hide();
+        $("#form-self").hide();
+        $("#form-send").show();
+        $("#opponent-call").show();
+        enableStepperNextButton();
+    });
 
-    $("#insurance-present").change(function () {
-            var selectedValue = $("#insurance-present option:selected").text();
-            var insuranceName = "#name-insurance-company";
-            var policeNumber = "#police-number";
-            if (selectedValue === 'Nein') {
-                $(insuranceName).prop('disabled', true);
-                $(insuranceName).val(null);
+    $("#insurance-present").change(function() {
+        var selectedValue = $("#insurance-present option:selected").text();
+        var insuranceName = "#name-insurance-company";
+        var policeNumber = "#police-number";
+        if (selectedValue === 'Nein') {
+            $(insuranceName).prop('disabled', true);
+            $(insuranceName).val(null);
 
-                $(policeNumber).prop('disabled', true);
-                $(policeNumber).val(null);
-            } else {
-                $(insuranceName).prop('disabled', false);
-                $(policeNumber).prop('disabled', false);
-            }
+            $(policeNumber).prop('disabled', true);
+            $(policeNumber).val(null);
+        } else {
+            $(insuranceName).prop('disabled', false);
+            $(policeNumber).prop('disabled', false);
         }
-    );
+    });
 
 
 });
@@ -84,24 +82,24 @@ var span = document.getElementsByClassName("close")[0];
 
 document.body.style.overflow = "auto";
 
-btn.onclick = function () {
+btn.onclick = function() {
     modal.style.display = "block";
     document.body.style.overflow = "hidden";
 };
 
-btn2.onclick = function () {
+btn2.onclick = function() {
     modal.style.display = "block";
     document.body.style.overflow = "hidden";
 
 };
 
-span.onclick = function () {
+span.onclick = function() {
     modal.style.display = "none";
     document.body.style.overflow = "auto";
 
 };
 
-window.onclick = function (event) {
+window.onclick = function(event) {
     if (event.target === modal) {
         modal.style.display = "none";
         document.body.style.overflow = "auto";
