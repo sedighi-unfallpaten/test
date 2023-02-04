@@ -8,6 +8,7 @@ var phoneOpponentValid = false;
 // var vehicleLocationOpponentValid = false;
 
 
+
 function testOpponent() {
     if (firstNameOpponentValid && lastNameOpponentValid && emailOpponentValid && phoneOpponentValid) {
         $("#submit-opponent").prop("disabled", false);
@@ -20,21 +21,6 @@ function testOpponent() {
 
 // unclear validation
 
-var firstNameUnclearValid = false;
-var lastNameUnclearValid = false;
-var emailUnclearValid = false;
-// var phoneUnclearValid = false;
-// var vehicleLocationUnclearValid = false;
-
-function testUnclear() {
-    if (firstNameUnclearValid && lastNameUnclearValid && emailUnclearValid && phoneUnclearValid) {
-        $("#submit-unclear").prop("disabled", false);
-        $("#submit-unclear").css("cursor", "pointer");
-    } else {
-        $("#submit-unclear").prop("disabled", true);
-        $("#submit-unclear").css("cursor", "not-allowed");
-    }
-}
 
 $(document).ready(function() {
 
@@ -66,10 +52,24 @@ $(document).ready(function() {
     //     dateOpponentValid = $("#date-opponent").val().length > 0;
     //     testOpponent();
     // });
-    // $("#vehicle-location-opponent").on('input', function() {
-    //     vehicleLocationOpponentValid = $("#vehicle-location-opponent").val().length > 0;
+    // $("#Ersatzwagen-location-opponent").on('input', function() {
+    //     ErsatzwagenValid = $("#Ersatzwagen-location-opponent").val().length == 0;
     //     testOpponent();
+    //  });
+
+    // 'use strict';
+    // function () {
+    //     function init() {
+    //         var datum = new Date();
+    //         document.getElementById('zeit')
+    //             .innerHTML = datum;
+    //     }
+    //     document.addEventListener("DOMContentLoaded", function () {
+    //         init();
+    //     });
     // });
+
+
 
     // unclear validation
 

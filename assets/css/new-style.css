@@ -1914,6 +1914,24 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     right: 0;
 }
 
+.testtes .tessii img {
+    position: absolute;
+    width: calc(30% - 15px);
+    top: 53%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+@media (min-width:2800px) and (max-width:3100px) {
+    .testtes .neu_tesi img {
+        position: absolute !important;
+        width: calc(20% - -3px) !important;
+        top: 52% !important;
+        transform: translateY(-56%) !important;
+        right: -1px !important;
+    }
+}
+
 .compensation-loss-wrap.accident-sponsors-wrap {
     background: #FF9D33;
 }
@@ -3269,6 +3287,10 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
         font-size: 25px;
         color: #F8F8F8;
     }
+    .banner .tel i {
+        font-size: 17.4px !important;
+    }
+    
     .banner .wa-now {
         height: 45px;
         width: 200px;
@@ -5273,6 +5295,9 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     }
     h2 {
         font-size: 24px;
+    }
+    h2.te_ {
+        font-size: 22px;
     }
     .handling-accident-step-wrap .handling-accident-step {
         padding: 28px 0 34px;

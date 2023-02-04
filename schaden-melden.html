@@ -62,6 +62,7 @@
         }
     </style>
 
+
     <!--  Clickcease.com tracking-->
     <script type='text/javascript'>
         var script = document.createElement('script');
@@ -87,6 +88,7 @@
     <div id="overlay">
         <div class="loader loader-default is-active" data-text="&Uuml;bermittle Daten..."></div>
     </div>
+
 
     <header class="report-header">
 
@@ -116,16 +118,23 @@
         </div>
 
     </header>
+
     <div id="stepper-container" class="col-md-12 mt-5 mb-5">
+        <div class="it_is_too">
+
+            <iframe id="img" class="it_is_too" src="assets/img/page/Car_ersatzcar.gif"></iframe>
+
+
+        </div>
         <div id="test-l-1" class="content">
             <div class="row">
-                <div class="col coool colo2">
+                <div class="new_co col coool colo2">
                     <h1>Wer hat den Unfall verursacht?</h1>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <div class="box report-initiator">
+                    <div class="box repo report-initiator">
                         <a href="#form-self"><button type="button" id="self" class="colo btn" data-toggle="button">
                        Ich </button></a>
                         <a href="#form-unclear"> <button type="button" id="unclear" class="colo btn" data-toggle="button">
@@ -174,17 +183,22 @@
                     </div>
                 </div>
             </div>
-
+            <style>
+                .new_from {
+                    margin-right: 0px !important;
+                    margin-left: 0px !important;
+                }
+            </style>
             <div class="mt-5 mb-5" id="form-opponent">
-                <h1 class="h1 colo2">Der Gegner ist der Unfallverursacher</h1>
+                <h1 class="new_heina h1 colo2">Unfallpaten in <br> <span>nur</span> 2 Minuten angefordert</h1>
                 <p class="new-para pt-5">
-                    F&uuml;lle unser kurzes Formular aus.
-                    <br>Im Anschluss werden uns bei dir melden, um das weitere Vorgehen abzustimmen.
+                    F&uuml;lle nur das folgende kurze Formular aus.
+                    <br>Im Anschluss werden wir uns bei dir zeitnah melden, um das weitere Vorgehen abzustimmen. <br> Deine Anfrage ist unverbindlich und kostenfrei!
                 </p>
 
                 <form name="form-input-opponent" id="form-input-opponent">
                     <div class="report-new report-form">
-                        <div class="form-row">
+                        <div class="new_from form-row">
                             <div class="col">
                                 <!-- <label for="salutation-opponent">Anrede<br></label> -->
                                 <div class="btn-group btn-group-toggle appointment" data-toggle="buttons">
@@ -196,7 +210,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="form-row">
+                        <div class="new_from form-row">
                             <div class="col">
                                 <!-- <label for="firstname-opponent">Vorname</label> -->
                                 <input type="text" class="form-control-new form-control" placeholder="Vorname" id="firstname-opponent" name="firstNameOpponent" required>
@@ -206,7 +220,7 @@
                                 <input type="text" class="form-control-new form-control" placeholder="Nachname" id="lastname-opponent" name="lastNameOpponent" required>
                             </div>
                         </div>
-                        <div class="form-row">
+                        <div class="new_from form-row">
                             <div class="col">
                                 <!-- <label for="email-opponent">E-Mail</label> -->
                                 <input type="email" class="form-control-new form-control" placeholder="ihre-email@email.com" id="email-opponent" name="emailOpponent" required>
@@ -216,37 +230,30 @@
                                 <input type="text" class="form-control-new form-control" placeholder="+49 171 123 123 12" id="phone-opponent" name="phoneOpponent" required>
                             </div>
                         </div>
-                        <!-- <div class="form-row">
+                        <div hidden class="new_from form-row">
                             <div class="col">
-                                <label for="date-opponent">Terminwunsch Besichtigung</label>
-                                <input type="date" class="form-control" placeholder="DD.MM.YYYY"
-                                       id="date-opponent" name="preferredDateOpponent">
+                                <input type="date" class="form-control-new form-control" id="date-picker" name="preferredDateOpponent">
                             </div>
                             <div class="col">
-                                <label for="date-time-select-opponent">Tageszeit
-                                    <br>
-                                </label>
-                                <div class="btn-group btn-group-toggle appointment"
-                                     data-toggle="buttons">
-                                    <select class="form-control" id="date-time-select-opponent"
-                                            name="dateTimeSelectOpponent">
+                                <div class="btn-group btn-group-toggle appointment" data-toggle="buttons">
+                                    <select class="form-control-new form-control" id="date-time-select-opponent" name="dateTimeSelectOpponent">
                                         <option value="MORNING">Vormittag</option>
                                         <option value="NOON">Mittag</option>
                                         <option value="AFTERNOON">Nachmittag</option>
                                     </select>
                                 </div>
                             </div>
-                        </div> -->
-                        <div class="form-row">
+                        </div>
+                        <div class="new_from form-row">
                             <div class="col">
                                 <!-- <label for="vehicle-location-opponent">Wo steht das Fahrzeug?</label> -->
                                 <input type="text" class="form-control-new form-control" placeholder="Ortschaft z.B. 22095 Hamburg" id="vehicle-location-opponent" name="vehicleLocationOpponent" required>
                             </div>
                         </div>
-                        <div class="form-row">
+                        <div class="new_from form-row">
                             <div class="col test-pla">
                                 <!-- <label for="description-opponent">Beschreibung (optional)</label> -->
-                                <textarea class="form-control-new form-control" id="description-opponent" name="descriptionOpponent" rows="7" placeholder="Beschreibung (optional)"></textarea>
+                                <textarea class="form-control-new form-control" id="description-opponent" name="descriptionOpponent" rows="7" placeholder="Beschreiben Sie ihren Vorfall (optional)"></textarea>
                             </div>
                         </div>
                         <div class="row">
@@ -273,6 +280,16 @@
                         </div>
                     </div>
                 </form>
+                <!-- <script>
+                    n = new Date();
+                    y = n.getFullYear();
+                    m = n.getMonth() + 1;
+                    d = n.getDate();
+                    document.getElementById("date").innerHTML = d + "/" + m + "/" + y;
+                </script> -->
+
+                <!-- <a href="https://www.ixq.de/datum/datum.php" target="_blank"><img src="https://www.ixq.de/datum/datum2.php" border="0" alt="heutiger Tag"></a> -->
+
             </div>
 
             <div class="pb-5" id="form-unclear">
@@ -284,7 +301,7 @@
 
                 <form name="form-input-unclear" id="form-input-unclear">
                     <div class="report-new report-form">
-                        <div class="form-row">
+                        <div class="new_from form-row">
                             <div class="col">
                                 <!-- <label for="salutation-unclear">Anrede<br></label> -->
                                 <div class="btn-group btn-group-toggle appointment" data-toggle="buttons">
@@ -296,7 +313,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="form-row">
+                        <div class="new_from form-row">
                             <div class="col">
                                 <!-- <label for="firstname-unclear">Vorname</label> -->
                                 <input type="text" class="form-control-new form-control" placeholder="Vorname" id="firstname-unclear" name="firstNameUnclear" required>
@@ -306,7 +323,7 @@
                                 <input type="text" class="form-control-new form-control" placeholder="Nachname" id="lastname-unclear" name="lastNameUnclear" required>
                             </div>
                         </div>
-                        <div class="form-row">
+                        <div class="new_from form-row">
                             <div class="col">
                                 <!-- <label for="email-unclear">E-Mail</label> -->
                                 <input type="email" class="form-control-new form-control" placeholder="ihre-email@email.com" id="email-unclear" name="emailUnclear" required>
@@ -564,6 +581,11 @@
 
         })
     </script>
+    <!-- <main>
+             <p>
+                <time aria-current="date" id="zeit"></time>
+             </p>
+            </main>      -->
 
 
     <script type="text/javascript" src="assets/libs/bs-stepper/js/bs-stepper.js"></script>
@@ -571,5 +593,13 @@
     <script type="text/javascript" src="assets/js/schaden-melden/report-accident.js"></script>
     <script type="text/javascript" src="assets/js/schaden-melden/post-advice.js"></script>
 </body>
+<script>
+    var date = new Date();
+    var year = date.getFullYear();
+    var month = date.getMonth() + 1;
+    var todayDate = String(date.getDate()).padStart(2, '0');
+    var datePattern = year + '-' + month + '-' + todayDate;
+    document.getElementById("date-picker").value = datePattern;
+</script>
 
 </html>
