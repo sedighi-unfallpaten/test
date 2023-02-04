@@ -3290,7 +3290,6 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     .banner .tel i {
         font-size: 17.4px !important;
     }
-    
     .banner .wa-now {
         height: 45px;
         width: 200px;
@@ -6551,7 +6550,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
         font-size: 14px;
     }
     .footer-link-wrap .footer-link-content ul {
-        margin-right: 21px;
+        margin-right: 4px;
     }
     .footer-link-wrap .footer-link-content {
         width: 50%;
