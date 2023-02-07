@@ -21,20 +21,35 @@ html {
 .only_test {
     color: #fff !important;
     padding-right: 7px !important;
-
 }
+
 .fa span {
     font-size: 17.4px !important;
     font-weight: 400 !important;
     font-family: 'Axiforma' !important;
+}
 
-} 
+@media (min-width:1440px) and (max-width:1680px) {
+    .fa span {
+        font-size: 22.4px !important;
+    }
+}
 
+@media (min-width:1680px) and (max-width:2100px) {
+    .fa span {
+        font-size: 25.4px !important;
+    }
+}
+
+@media (min-width:2100px) and (max-width:4500px) {
+    .fa span {
+        font-size: 27px !important;
+    }
+}
 
 .banner .banner-content .banner-btn a i:hover {
     color: #373737 !important;
 }
-
 
 .login-button {
     width: 142px;
@@ -240,16 +255,10 @@ html {
 }
 
 @media screen and (min-width: 1px) and (max-width: 600px) {
-
-    
-.rr_new {
-    display: grid !important
-
+    .rr_new {
+        display: grid !important
+    }
 }
-
-
-}
-
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .nav-bar {
@@ -321,25 +330,24 @@ html {
     font-size: 36px;
     text-align: center;
 }
+
 .new_co h1 {
     margin-top: -130px !important;
     font-size: 36px;
     text-align: center;
 }
-@media (min-width: 0px) and (max-width:382px) {
 
+@media (min-width: 0px) and (max-width:382px) {
     .new_co h1 {
         margin-top: -161px !important;
         font-size: 36px;
         text-align: center;
     }
-    
 }
 
 .repo {
     margin-top: -70px !important;
 }
-
 
 .h1 {
     margin-top: 130px;
@@ -1183,7 +1191,8 @@ html {
         font-weight: bolder;
     }
 }
-.new_background_{
+
+.new_background_ {
     background-color: #F4F4F4 !important;
 }
 
@@ -3386,6 +3395,12 @@ header .new_no li a {
 
 /* Ab hier endet der CSS_CODE zu der Seite (Affiliate)*/
 
+@media (min-width:1713px) and (max-width:4500px) {
+    .footer-link-wrap .footer-link-content:last-child {
+        min-width: 400px !important;
+    }
+}
+
 .banner .banner-content h2.new-color-pa {
     color: #FFFFFF;
 }
@@ -4321,15 +4336,14 @@ header .navbar-nav li a.new_toggle::after {
 }
 
 
-
-
 /* Ersatzwagen-anfordern-Seite
  */
 
- .auto_abstand {
+.auto_abstand {
     height: 80px !important;
- }
- .it_is_too {
+}
+
+.it_is_too {
     text-align: center;
     display: eachloo;
     margin-top: -10px;
@@ -4343,7 +4357,7 @@ header .navbar-nav li a.new_toggle::after {
 
 .new-para {
     padding-top: 1rem!important;
-    font-size: 14px !important; 
+    font-size: 14px !important;
     font-family: 'Axiforma', sans-serif !important;
 }
 

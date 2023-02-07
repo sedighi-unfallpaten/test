@@ -3218,6 +3218,12 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     /*-_-_impressum-2_CSS_End_-_-*/
 }
 
+@media (min-width:1713px) and (max-width:4500px) {
+    .footer-link-wrap .footer-link-content:last-child {
+        min-width: 400px !important;
+    }
+}
+
 @media only screen and (max-width: 1600px) {
     header .navbar-nav li {
         margin-left: 40px;
@@ -4855,7 +4861,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
         margin: 0 auto 67px;
     }
     .footer-link-wrap .footer-link-content:last-child {
-        max-width: 200px;
+        max-width: 260px;
     }
     .footer-link-wrap .footer-link-content ul {
         margin-right: 40px;
@@ -5592,7 +5598,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
         margin-right: 24px;
     }
     .footer-link-wrap .footer-link-content:last-child {
-        max-width: 155px;
+        max-width: 188px;
     }
     .footer-link-wrap,
     .footer-social-outer-wrap {
