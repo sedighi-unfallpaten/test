@@ -958,20 +958,26 @@
     }
     
     .pp {
-        padding-bottom: 45px !important;
+        padding-bottom: 30px !important;
         padding-top: 63px !important;
+    }
+    
+    @media (min-width:992px) and (max-width:1200px) {
+        .pp {
+            padding-bottom: 13px !important;
+        }
     }
     
     @media (min-width:1600px) and (max-width:1710px) {
         .pp {
-            padding-bottom: 79px !important;
+            padding-bottom: 51px !important;
             padding-top: 63px !important;
         }
     }
     
     @media (min-width:1710px) and (max-width:4000px) {
         .pp {
-            padding-bottom: 100px !important;
+            padding-bottom: 76px !important;
             padding-top: 63px !important;
         }
     }
