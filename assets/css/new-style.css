@@ -708,6 +708,15 @@ width: 100px;
     transition: 0.4s;
 }
 
+.banner .banner-content_new .banner-btn a:hover {
+    background-color: transparent;
+    border: 1.5px solid #FF7800;
+    cursor: pointer;
+    color: #000000;
+    background: #fff !important;
+    transition: 0.7s;
+}
+
 .banner .banner-content .btn a:hover {
     background-color: #FFFFFF;
     border: 2px solid #FF7800;
@@ -1206,7 +1215,7 @@ h4 {
 
 .opposing-insurance-wrap .opposing-insurance-content ul li {
     border-bottom: 1px solid #B9B9B9;
-    padding: 30px 0 23.5px;
+    padding: 12px 0 23.5px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -1534,7 +1543,7 @@ footer .footer-content p {
 }
 
 .footer-link-wrap .footer-link-content ul:last-child {
-    margin-right: 0px;
+    margin-right: -21px;
 }
 
 .footer-social-outer-wrap {
@@ -5598,7 +5607,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
         margin-right: 24px;
     }
     .footer-link-wrap .footer-link-content:last-child {
-        max-width: 188px;
+        max-width: 172px;
     }
     .footer-link-wrap,
     .footer-social-outer-wrap {
