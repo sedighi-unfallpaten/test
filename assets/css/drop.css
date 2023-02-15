@@ -962,6 +962,13 @@
         padding-top: 55px !important;
     }
     
+    @media (min-width:0px) and (max-width:450px) {
+        .pp {
+            padding-bottom: 7px !important;
+            padding-top: 44px !important;
+        }
+    }
+    
     @media (min-width:992px) and (max-width:1200px) {
         .pp {
             padding-bottom: 4px !important;
@@ -974,6 +981,7 @@
             padding-bottom: 42px !important;
         }
     }
+    
     @media (min-width:1470px) and (max-width:1473px) {
         .pp {
             padding-bottom: 60px !important;
@@ -2805,13 +2813,13 @@
             color: #B4C93E;
             font-size: 23.8px;
         }
-         .new_rowe {
+        .new_rowe {
             display: grid !important;
             justify-content: center !important;
             /* padding: 15.9px !important;
             margin-right: 0px;
     margin-left: 0px; */
-        } 
+        }
         .new_border {
             width: 21rem;
         }
@@ -3096,14 +3104,13 @@
             font-size: 14px !important;
         }
     }
+    
     @media (min-width:1025px) and (max-width:1217px) {
-
         .zwei_felder {
             width: 42%;
             position: relative;
             left: 51px;
         }
-
     }
     
     @media (min-width:1217px) and (max-width:1503px) {
@@ -3218,7 +3225,8 @@
             padding-top: 2rem;
             text-align: start;
             padding-bottom: 1.8rem;
-            width: 73rem;;
+            width: 73rem;
+            ;
         }
         .new_pa_ {
             width: 1132px !important;
@@ -3261,13 +3269,11 @@
             font-size: 24px !important;
         }
     }
+    
     @media (min-width:1000px) and (max-width:1757px) {
-
         .newhvier h4 {
             font-size: 17px !important;
         }
-
-        
     }
     
     @media (min-width:1757px) and (max-width:2500px) {
@@ -4810,4 +4816,3 @@
         margin-right: 0px !important;
         margin-left: 0px !important;
     }
-
