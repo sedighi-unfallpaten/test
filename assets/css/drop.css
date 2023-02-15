@@ -651,7 +651,7 @@
     
     .inputi {
         margin-bottom: 20px;
-        padding-bottom: 30px;
+        padding-bottom: 10px;
     }
     
     .inp {
@@ -884,7 +884,7 @@
     
     .h-new {
         text-align: center;
-        font-size: 37px;
+        font-size: 30px;
         margin-bottom: 64px;
         color: #343434;
         font-family: 'Axiforma', sans-serif !important;
@@ -959,12 +959,24 @@
     
     .pp {
         padding-bottom: 30px !important;
-        padding-top: 63px !important;
+        padding-top: 55px !important;
     }
     
     @media (min-width:992px) and (max-width:1200px) {
         .pp {
-            padding-bottom: 13px !important;
+            padding-bottom: 4px !important;
+        }
+    }
+    
+    @media (min-width:1300px) and (max-width:1440px) {
+        .pp {
+            padding-bottom: 22px !important;
+        }
+    }
+    
+    @media (min-width:1473px) and (max-width:1600px) {
+        .pp {
+            padding-bottom: 36px !important;
         }
     }
     
@@ -978,7 +990,7 @@
     @media (min-width:1710px) and (max-width:4000px) {
         .pp {
             padding-bottom: 76px !important;
-            padding-top: 63px !important;
+            padding-top: 45px !important;
         }
     }
     
@@ -993,7 +1005,7 @@
     .boss {
         background-color: #F4F4F4;
         width: 50%;
-        text-align: center;
+        text-align: inherit;
         align-items: center;
         display: inline-block;
     }
@@ -1034,7 +1046,7 @@
     }
     
     .boss h5 {
-        float: left;
+        /* float: left; */
         text-align: justify;
         margin-inline: 52px;
     }
@@ -2727,6 +2739,13 @@
     }
     
     @media (min-width:1px) and (max-width:600px) {
+        .newhvier h4 {
+            color: #FF7800;
+            padding-bottom: 20px;
+            padding-top: 25px;
+            font-size: 17px !important;
+            font-weight: bold;
+        }
         header.new_mobi {
             background: #424242;
             /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3); */
@@ -2737,7 +2756,7 @@
             padding: 50px;
         }
         .boss_new p {
-            width: 340px;
+            width: 362px;
             padding-top: 10px;
             padding-bottom: 90px;
             text-align: left;
@@ -2756,7 +2775,7 @@
             border: 2px solid #ff7800 !important;
             border-radius: 15px !important;
             padding: 0px !important;
-            margin-left: -37px !important;
+            /* margin-left: -37px !important; */
         }
         .h_new {
             color: #343434;
@@ -2780,10 +2799,13 @@
             color: #B4C93E;
             font-size: 23.8px;
         }
-        .new_rowe {
+         .new_rowe {
             display: grid !important;
-            padding: 15.9px !important;
-        }
+            justify-content: center !important;
+            /* padding: 15.9px !important;
+            margin-right: 0px;
+    margin-left: 0px; */
+        } 
         .new_border {
             width: 21rem;
         }
@@ -2806,7 +2828,7 @@
         font-size: 14px !important;
     } */
         .new_bag_box h1 {
-            font-size: 30px !important;
+            font-size: 25px !important;
         }
         .hh-new {
             font-size: 26px !important;
@@ -2855,7 +2877,7 @@
         }
     }
     
-    @media (min-width: 765px) and (max-width: 899px) {
+    @media (min-width: 765px) and (max-width: 900px) {
         h5.hzweivon_feldf {
             font-size: 15.6px;
             margin-inline: 2px;
@@ -2868,7 +2890,7 @@
     
     @media (min-width:900px) and (max-width:1023px) {
         h5.hzweivon_feldf {
-            font-size: 15.6px;
+            font-size: 14.6px;
             margin-inline: 16px;
             padding-top: 15px;
         }
@@ -2876,8 +2898,8 @@
     
     @media (min-width:1023px) and (max-width:1217px) {
         h5.hzweivon_feldf {
-            font-size: 18.3px;
-            margin-inline: 21px;
+            font-size: 16.3px;
+            margin-inline: 40px;
         }
     }
     
@@ -2887,9 +2909,19 @@
         }
     }
     
+    @media (min-width:1471px) and (max-width:1671px) {
+        .zwei_felder {
+            width: 35%;
+            position: relative;
+            left: 140px;
+        }
+    }
+    
     @media (min-width:1671px) and (max-width:1893px) {
         .zwei_felder {
-            width: 50%;
+            width: 35%;
+            position: relative;
+            left: 140px;
         }
         h2.hzweivon_feld {
             font-size: 41px;
@@ -2901,10 +2933,13 @@
     
     @media (min-width:1893px) and (max-width:2112px) {
         .zwei_felder {
-            width: 46%;
+            width: 37%;
+            position: relative;
+            left: 100px;
         }
         h2.hzweivon_feld {
-            font-size: 49px;
+            font-size: 28px;
+            text-align: center;
         }
         h5.hzweivon_feldf {
             font-size: 33.3px;
@@ -2913,7 +2948,7 @@
     
     @media (min-width:1996px) and (max-width:2112px) {
         h5.hzweivon_feldf {
-            font-size: 40.3px;
+            font-size: 26.3px;
             padding-top: 25px;
             margin-inline: 0px;
         }
@@ -2924,19 +2959,22 @@
     
     @media (min-width:2112px) and (max-width:2532px) {
         .zwei_felder {
-            width: 43%;
+            width: 36%;
+            position: relative;
+            left: 150px;
         }
         h2.hzweivon_feld {
-            font-size: 49px;
+            font-size: 31px;
+            text-align: center;
         }
         h5.hzweivon_feldf {
-            font-size: 42.3px;
+            font-size: 27.3px;
             padding-top: 20px;
             margin-inline: 26px;
         }
         @media (min-width:2112px) and (max-width:2200px) {
             h5.hzweivon_feldf {
-                font-size: 40.3px;
+                font-size: 28.3px;
                 padding-top: 25px;
                 margin-inline: 0px;
             }
@@ -2948,12 +2986,13 @@
             width: 39%;
         }
         h2.hzweivon_feld {
-            font-size: 53px;
+            font-size: 30px;
+            text-align: center;
         }
         h5.hzweivon_feldf {
             /* font-size: 40px;
         margin-inline: 50px; */
-            font-size: 48px;
+            font-size: 27px;
             padding-top: 17px;
             margin-inline: 42px;
         }
@@ -2964,10 +3003,11 @@
             max-width: 38%;
         }
         h2.hzweivon_feld {
-            font-size: 58px;
+            font-size: 30px;
+            text-align: center;
         }
         h5.hzweivon_feldf {
-            font-size: 52px;
+            font-size: 28px;
             margin-inline: 66px;
         }
     }
@@ -2977,17 +3017,18 @@
             max-width: 40%;
         }
         h2.hzweivon_feld {
-            font-size: 64px;
+            font-size: 33px;
+            text-align: center;
         }
         h5.hzweivon_feldf {
-            font-size: 55px;
+            font-size: 30px;
             margin-inline: 105px;
         }
     }
     
     @media (min-width:600px) and (max-width:618px) {
         h5.hzweivon_feldf {
-            font-size: 10.6px;
+            font-size: 14.6px;
             margin: 5px;
             margin-inline: -10px;
         }
@@ -2995,7 +3036,7 @@
     
     @media (min-width:618px) and (max-width:689px) {
         h5.hzweivon_feldf {
-            font-size: 10.6px;
+            font-size: 14.6px;
             margin: 5px;
             margin-inline: -1px;
         }
@@ -3003,9 +3044,12 @@
     
     @media (min-width:689px) and (max-width:764px) {
         h5.hzweivon_feldf {
-            font-size: 10.6px;
+            /* font-size: 14.6px;
             margin: 5px;
-            margin-inline: 11px;
+            margin-inline: 11px; */
+            font-size: 13.6px;
+            margin: 12px;
+            margin-inline: -1px;
         }
     }
     
@@ -3014,13 +3058,13 @@
             font-size: 17px;
         }
         .new_h_ {
-            font-size: 16px;
+            font-size: 15px;
             position: relative;
-            right: 18px;
+            right: 35px;
         }
         .new_pa_ {
-            width: 278px !important;
-            font-size: 14px;
+            width: 300px !important;
+            font-size: 13px;
             position: relative;
             right: 35px;
         }
@@ -3028,27 +3072,67 @@
     
     @media (min-width:768px) and (max-width:1000px) {
         .new_h_ {
-            font-size: 23px;
+            font-size: 16px;
+            padding-left: 0px !important;
         }
         .new_pa_ {
             width: 330px !important;
+            font-size: 14px !important;
         }
     }
     
     @media (min-width:1000px) and (max-width:1160px) {
         .new_h_ {
-            font-size: 26px;
+            font-size: 20px;
         }
         .new_pa_ {
-            width: 430px !important;
+            width: 380px !important;
+            font-size: 14px !important;
+        }
+    }
+    @media (min-width:1025px) and (max-width:1217px) {
+
+        .zwei_felder {
+            width: 42%;
+            position: relative;
+            left: 51px;
+        }
+
+    }
+    
+    @media (min-width:1217px) and (max-width:1503px) {
+        h5.hzweivon_feldf {
+            font-size: 15.3px;
+            margin: 9px;
+            margin-inline: 30px;
+        }
+        .zwei_felder {
+            width: 34%;
+            position: relative;
+            left: 91px;
+        }
+        .new_h_ {
+            /* width: 80rem; */
+            font-size: 40px;
+            padding-right: 20rem;
+            padding-left: 5rem;
+            padding-top: 2rem;
+            text-align: start;
+            padding-bottom: 0.8rem;
+        }
+        .new_pa_ {
+            /* width: 709px !important; */
+            padding-left: 5rem !important;
+            text-align: start;
+            font-size: 15px;
         }
     }
     
     @media (min-width:1503px) and (max-width:1760px) {
         h5.hzweivon_feldf {
-            font-size: 36.3px;
-            margin: 27px;
-            margin-inline: 2px;
+            font-size: 18.3px;
+            margin: 15px;
+            margin-inline: 30px;
         }
         .new_h_ {
             width: 80rem;
@@ -3057,19 +3141,19 @@
             padding-left: 0rem;
             padding-top: 2rem;
             text-align: start;
-            padding-bottom: 2.8rem;
+            padding-bottom: 1.8rem;
         }
         .new_pa_ {
-            width: 630px !important;
+            width: 709px !important;
             padding-left: 0rem !important;
             text-align: start;
-            font-size: 2rem;
+            font-size: 19px;
         }
     }
     
     @media (min-width:1760px) and (max-width:1996px) {
         h5.hzweivon_feldf {
-            font-size: 37.3px;
+            font-size: 19.3px;
             margin: 27px;
             margin-inline: 14px;
         }
@@ -3077,16 +3161,16 @@
             width: 80rem;
             font-size: 50px;
             padding-right: 20rem;
-            padding-left: 0rem;
+            padding-left: 8rem;
             padding-top: 2rem;
             text-align: start;
-            padding-bottom: 2.8rem;
+            padding-bottom: 1.8rem;
         }
         .new_pa_ {
-            width: 760px !important;
-            padding-left: 0rem !important;
+            width: 664px !important;
+            padding-left: 8rem !important;
             text-align: start;
-            font-size: 2.32rem;
+            font-size: 23px;
         }
     }
     
@@ -3100,60 +3184,63 @@
         }
         .new_h_ {
             width: 80rem;
-            font-size: 55px;
+            font-size: 30px;
             padding-right: 20rem;
             padding-left: 0rem;
             padding-top: 2rem;
             text-align: start;
-            padding-bottom: 2.8rem;
+            padding-bottom: 1.8rem;
         }
         .new_pa_ {
-            width: 960px !important;
+            width: 838px !important;
             padding-left: 0rem !important;
             text-align: start;
-            font-size: 2.32rem;
+            font-size: 26px;
         }
     }
     
     @media (min-width:2200px) and (max-width:2945px) {
         .boss_neww:last-child {
             position: relative;
-            right: -9rem;
+            right: -17rem;
+            width: 30%;
         }
         .new_h_ {
-            font-size: 49px;
+            font-size: 30px;
             padding-right: 20rem;
-            padding-left: 0rem;
+            padding-left: 20rem;
             padding-top: 2rem;
             text-align: start;
-            padding-bottom: 2.8rem;
+            padding-bottom: 1.8rem;
+            width: 73rem;;
         }
         .new_pa_ {
-            width: 1200px !important;
-            padding-left: 0rem !important;
+            width: 1132px !important;
+            padding-left: 20rem !important;
             text-align: start;
-            font-size: 2.32rem;
+            font-size: 27px;
         }
     }
     
     @media (min-width:2945px) and (max-width:4400px) {
         .boss_neww:last-child {
             position: relative !important;
-            right: -12rem !important;
+            right: -20rem !important;
+            width: 27%;
         }
         .new_h_ {
-            font-size: 53px;
+            font-size: 32px;
             padding-right: 20rem;
             padding-left: 20rem;
             padding-top: 2rem;
             text-align: start;
-            padding-bottom: 2.8rem;
+            padding-bottom: 1.8rem;
         }
         .new_pa_ {
-            width: 1500px !important;
+            width: 1273px !important;
             padding-left: 20rem !important;
             text-align: start;
-            font-size: 2.32rem;
+            font-size: 28px;
         }
     }
     
@@ -3165,31 +3252,39 @@
             font-size: 12px !important;
         }
         .newhvier h1 {
-            font-size: 40px !important;
+            font-size: 24px !important;
         }
+    }
+    @media (min-width:1000px) and (max-width:1757px) {
+
+        .newhvier h4 {
+            font-size: 17px !important;
+        }
+
+        
     }
     
     @media (min-width:1757px) and (max-width:2500px) {
         .newhvier p {
-            font-size: xx-large !important;
+            font-size: 20px !important;
         }
         .newhvier h4 {
-            font-size: 40px !important;
+            font-size: 24px !important;
         }
         .newhvier h1 {
-            font-size: 52px !important;
+            font-size: 40px !important;
         }
     }
     
     @media (min-width:2500px) and (max-width:4400px) {
         .newhvier p {
-            font-size: xx-large !important;
+            font-size: 21px !important;
         }
         .newhvier h4 {
-            font-size: 40px !important;
+            font-size: 25px !important;
         }
         .newhvier h1 {
-            font-size: 59px !important;
+            font-size: 42px !important;
         }
     }
     
@@ -3421,41 +3516,46 @@
     @media (min-width:2000px) and (max-width:4400px) {
         .n_paragraph p {
             width: 550px !important;
-            font-size: 30px !important;
+            font-size: 25px !important;
         }
         .n_paragraph h3 {
             width: 43rem !important;
-            font-size: 43px;
+            font-size: 31px;
         }
     }
     
     @media (min-width:767px) and (max-width:1000px) {
         .inp_ {
-            width: 14.99% !important;
+            width: 35.5% !important;
+            margin-bottom: 20px;
         }
     }
     
     @media (min-width:1000px) and (max-width:1350px) {
         .inp_ {
-            width: 15.99% !important;
+            width: 36.1% !important;
+            margin-bottom: 20px;
         }
     }
     
     @media (min-width:1350px) and (max-width:1700px) {
         .inp_ {
-            width: 16.8% !important;
+            width: 36.4% !important;
+            margin-bottom: 20px;
         }
     }
     
     @media (min-width:1700px) and (max-width:2000px) {
         .inp_ {
-            width: 17.2% !important;
+            width: 36.55% !important;
+            margin-bottom: 20px;
         }
     }
     
     @media (min-width:2000px) and (max-width:2400px) {
         .inp_ {
-            width: 17.2% !important;
+            width: 36.9% !important;
+            margin-bottom: 20px;
         }
     }
     /* Ab hier beginnt der CSS_CODE zu der Seite (Affiliate)*/
@@ -3505,7 +3605,7 @@
     
     .banner .banner-content .new-partner-color a {
         background: #FF7800;
-        box-shadow: 1px 1px 4px rgb(189 181 181);
+        box-shadow: 0px 0px 0px rgb(189 181 181);
     }
     
     .banner .banner-content .new-aff a {
@@ -3573,12 +3673,12 @@
         color: #FF7800;
         padding-bottom: 20px;
         padding-top: 25px;
-        font-size: 18px;
+        font-size: 12px;
         font-weight: bold;
     }
     
     .newhvier p {
-        color: #000000;
+        color: #373737 !important;
         font-size: small;
         padding-bottom: 25px;
         padding-top: 10px;
@@ -3586,52 +3686,90 @@
     
     @media (min-width:604px) and (max-width:765px) {
         .newhvier p.neues_zwei {
-            color: #000000;
             font-size: small;
             padding-bottom: 81px !important;
             padding-top: 10px;
         }
         .newhvier p.neues_drei {
-            color: #000000;
             font-size: small;
-            padding-bottom: 62px !important;
+            padding-bottom: 80px !important;
             padding-top: 10px;
         }
         .newhvier p.neues_eins {
-            color: #000000;
             font-size: small;
             padding-bottom: 11px !important;
             padding-top: 10px;
         }
         .newhvier p.neues_vier {
-            color: #000000;
             font-size: small;
             padding-bottom: 17px !important;
             padding-top: 10px;
         }
         .newhvier p.neues_funf {
-            color: #000000;
             font-size: small;
             padding-bottom: 53px !important;
             padding-top: 10px;
         }
         .newhvier p.neues_sechs {
-            color: #000000;
             font-size: small;
-            padding-bottom: 17px !important;
+            padding-bottom: 50px !important;
             padding-top: 10px;
         }
     }
     
-    @media (min-width:765px) and (max-width:990px) {
+    @media (width:765px) {
         .newhvier p.neues_zwei {
-            color: #000000;
+            font-size: small;
+            padding-bottom: 85px !important;
+            padding-top: 10px;
+        }
+        .newhvier p.neues_drei {
+            font-size: small;
+            padding-bottom: 85px !important;
+            padding-top: 10px;
+        }
+        .newhvier p.neues_funf {
+            font-size: small;
+            padding-bottom: 53px !important;
+            padding-top: 10px;
+        }
+        .newhvier p.neues_sechs {
+            font-size: small;
+            padding-bottom: 53px !important;
+            padding-top: 10px;
+        }
+    }
+    
+    @media (width:766px) {
+        .newhvier p.neues_zwei {
+            font-size: small;
+            padding-bottom: 100px !important;
+            padding-top: 10px;
+        }
+        .newhvier p.neues_drei {
+            font-size: small;
+            padding-bottom: 62px !important;
+            padding-top: 10px;
+        }
+        .newhvier p.neues_funf {
+            font-size: small;
+            padding-bottom: 48px !important;
+            padding-top: 10px;
+        }
+        .newhvier p.neues_sechs {
+            font-size: small;
+            padding-bottom: 30px !important;
+            padding-top: 10px;
+        }
+    }
+    
+    @media (min-width:767px) and (max-width:990px) {
+        .newhvier p.neues_zwei {
             font-size: small;
             padding-bottom: 60px !important;
             padding-top: 10px;
         }
         .newhvier p.neues_drei {
-            color: #000000;
             font-size: small;
             padding-bottom: 62px !important;
             padding-top: 10px;
@@ -3650,71 +3788,161 @@
         }
     }
     
-    @media (min-width:990px) and (max-width:1440px) {
+    @media (min-width:990px) and (max-width:1200px) {
+        .newhvier p.neues_zwei {
+            color: #000000;
+            font-size: small;
+            padding-bottom: 45px !important;
+            padding-top: 10px;
+        }
+        .newhvier p.neues_drei {
+            color: #000000;
+            font-size: small;
+            padding-bottom: 45px !important;
+            padding-top: 10px;
+        }
+        .newhvier p.neues_funf {
+            color: #000000;
+            font-size: small;
+            padding-bottom: 27px !important;
+            padding-top: 10px;
+        }
+        .newhvier p.neues_sechs {
+            color: #000000;
+            font-size: small;
+            padding-bottom: 29px !important;
+            padding-top: 10px;
+        }
+    }
+    
+    @media (min-width:1200px) and (max-width:1440px) {
+        .newhvier p.neues_zwei {
+            color: #000000;
+            font-size: small;
+            padding-bottom: 66px !important;
+            padding-top: 10px;
+        }
+        .newhvier p.neues_drei {
+            color: #000000;
+            font-size: small;
+            padding-bottom: 45px !important;
+            padding-top: 10px;
+        }
+        .newhvier p.neues_funf {
+            color: #000000;
+            font-size: small;
+            padding-bottom: 25.5px !important;
+            padding-top: 10px;
+        }
+        .newhvier p.neues_sechs {
+            color: #000000;
+            font-size: small;
+            padding-bottom: 25.5px !important;
+            padding-top: 10px;
+        }
+    }
+    
+    @media (width:1440px) {
+        .newhvier p.neues_zwei {
+            color: #000000;
+            font-size: small;
+            padding-bottom: 64px !important;
+            padding-top: 10px;
+        }
+        .newhvier p.neues_funf {
+            color: #000000;
+            font-size: small;
+            padding-bottom: 28px !important;
+            padding-top: 10px;
+        }
+    }
+    
+    @media (min-width:1441px) and (max-width:1600px) {
+        .newhvier p.neues_zwei {
+            color: #000000;
+            font-size: small;
+            padding-bottom: 40px !important;
+            padding-top: 10px;
+        }
+        .newhvier p.neues_funf {
+            color: #000000;
+            font-size: small;
+            padding-bottom: 44px !important;
+            padding-top: 10px;
+        }
+        .newhvier p.neues_drei {
+            color: #000000;
+            font-size: small;
+            padding-bottom: 41px !important;
+            padding-top: 10px;
+        }
+    }
+    
+    @media (min-width:1712px) and (max-width:1758px) {
+        .newhvier p.neues_zwei {
+            color: #000000;
+            font-size: small;
+            padding-bottom: 40px !important;
+            padding-top: 10px;
+        }
+        .newhvier p.neues_drei {
+            color: #000000;
+            font-size: small;
+            padding-bottom: 41px !important;
+            padding-top: 10px;
+        }
+    }
+    
+    @media (min-width:1759px) and (max-width:2500px) {
+        .newhvier p.neues_zwei {
+            color: #000000;
+            font-size: small;
+            padding-bottom: 81px !important;
+            padding-top: 10px;
+        }
+        .newhvier p.neues_funf {
+            color: #000000;
+            font-size: small;
+            padding-bottom: 30px !important;
+            padding-top: 10px;
+        }
+        .newhvier p.neues_sechs {
+            color: #000000;
+            font-size: small;
+            padding-bottom: 30px !important;
+            padding-top: 10px;
+        }
+        .newhvier p.neues_drei {
+            color: #000000;
+            font-size: small;
+            padding-bottom: 78px !important;
+            padding-top: 10px;
+        }
+    }
+    
+    @media (min-width:2500px) and (max-width:4000px) {
         .newhvier p.neues_zwei {
             color: #000000;
             font-size: small;
             padding-bottom: 60px !important;
             padding-top: 10px;
         }
-        .newhvier p.neues_drei {
-            color: #000000;
-            font-size: small;
-            padding-bottom: 62px !important;
-            padding-top: 10px;
-        }
         .newhvier p.neues_funf {
             color: #000000;
             font-size: small;
-            padding-bottom: 48px !important;
+            padding-bottom: 55px !important;
             padding-top: 10px;
         }
         .newhvier p.neues_sechs {
             color: #000000;
             font-size: small;
-            padding-bottom: 47px !important;
-            padding-top: 10px;
-        }
-    }
-    
-    @media (min-width:1440px) and (max-width:1600px) {
-        .newhvier p.neues_zwei {
-            color: #000000;
-            font-size: small;
-            padding-bottom: 38px !important;
-            padding-top: 10px;
-        }
-        .newhvier p.neues_funf {
-            color: #000000;
-            font-size: small;
-            padding-bottom: 48px !important;
-            padding-top: 10px;
-        }
-    }
-    
-    @media (min-width:1759px) and (max-width:4000px) {
-        .newhvier p.neues_zwei {
-            color: #000000;
-            font-size: small;
-            padding-bottom: 68px !important;
-            padding-top: 10px;
-        }
-        .newhvier p.neues_funf {
-            color: #000000;
-            font-size: small;
-            padding-bottom: 68px !important;
-            padding-top: 10px;
-        }
-        .newhvier p.neues_sechs {
-            color: #000000;
-            font-size: small;
-            padding-bottom: 68px !important;
+            padding-bottom: 55px !important;
             padding-top: 10px;
         }
         .newhvier p.neues_drei {
             color: #000000;
             font-size: small;
-            padding-bottom: 68px !important;
+            padding-bottom: 63px !important;
             padding-top: 10px;
         }
     }
@@ -4099,7 +4327,7 @@
         }
         .new_kolor h1 {
             float: left;
-            font-size: 47px;
+            font-size: 55px;
             padding-left: 35px;
             padding-top: 35px;
             padding-bottom: 45px;
@@ -4576,3 +4804,4 @@
         margin-right: 0px !important;
         margin-left: 0px !important;
     }
+

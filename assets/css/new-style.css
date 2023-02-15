@@ -1189,7 +1189,8 @@ h4 {
     border: 1px solid #FF7800;
     border-radius: 20px;
     background: #FAFAFA;
-    padding: 58px 35px 74px 52px;
+    /* padding: 58px 35px 74px 52px; */
+    padding: 17px 26px 33px 34px !important;
 }
 
 .opposing-insurance-wrap .opposing-insurance-content h5 {
@@ -2777,7 +2778,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
         margin-right: 62px;
     }
     .our-services .our-services-content h3 {
-        font-size: 28px;
+        font-size: 20px;
         margin-bottom: 18px;
     }
     .our-services .our-services-content p {
@@ -3341,6 +3342,13 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     h2 {
         font-size: 40px;
     }
+    /* .new_padding {
+        font-size: 23px !important;
+    }
+    .ende_hzwei {
+        font-size: 25px !important;
+        text-align: center !important;
+    } */
     .handling-accident-step-wrap .handling-accident-step {
         padding: 65px 0 100px;
     }
@@ -6415,7 +6423,8 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
         font-size: 18px;
     }
     .opposing-insurance-wrap .opposing-insurance-content ul li {
-        padding: 15.5px 0 12.5px 19.5px;
+        /* padding: 15.5px 0 12.5px 19.5px; */
+        padding: 15.5px 0 11.5px -0.5px;
     }
     .opposing-insurance-wrap .opposing-insurance-content ul li img {
         width: 39px;
