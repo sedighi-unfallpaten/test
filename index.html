@@ -479,7 +479,7 @@
 
                 // Prüfen, ob aktuelle Uhrzeit zwischen 10:00 Uhr und 17:00 Uhr liegt
                 var hour = now.getHours();
-                if (hour < 20 || hour >= 23) {
+                if (hour < 10 || hour >= 17) {
                     return false;
                 }
 
@@ -493,13 +493,13 @@
                 setTimeout(function() {
                     document.getElementById('popup').classList.remove('hidden');
                     document.getElementById('aufleuten_nr').classList.add('aufleuten_nr');
-                }, 3000);
+                }, 5000);
 
                 // Popup-Fenster nach 20 Sekunden ausblenden
                 setTimeout(function() {
                     document.getElementById('popup').classList.add('hidden');
                     document.getElementById('aufleuten_nr').classList.remove('aufleuten_nr');
-                }, 20000);
+                }, 15000);
             }
         </script>
         <!-- Banner End -->
