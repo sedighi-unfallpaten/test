@@ -976,9 +976,15 @@
         }
     }
     
+    @media (min-width:1200px) and (max-width:1300px) {
+        .pp {
+            padding-bottom: 32px !important;
+        }
+    }
+    
     @media (min-width:1300px) and (max-width:1440px) {
         .pp {
-            padding-bottom: 42px !important;
+            padding-bottom: 25px !important;
         }
     }
     
@@ -1005,6 +1011,49 @@
         .pp {
             padding-bottom: 106px !important;
             padding-top: 45px !important;
+        }
+    }
+    
+    @media not all and (min-resolution:.001dpcm) {
+        @supports (-webkit-appearance: none) {
+            @media (min-width: 1710px) and (max-width: 4000px) {
+                .pp {
+                    padding-bottom: 74px !important;
+                    padding-top: 53px !important;
+                }
+            }
+            @media (min-width:1601px) and (max-width:1710px) {
+                .pp {
+                    padding-bottom: 64px !important;
+                    padding-top: 45px !important;
+                }
+            }
+            @media (min-width:1473px) and (max-width:1600px) {
+                .pp {
+                    padding-bottom: 55px !important;
+                }
+            }
+            @media (min-width:1300px) and (max-width:1440px) {
+                .pp {
+                    padding-bottom: 5px !important;
+                }
+            }
+            @media (min-width:1198px) and (max-width:1300px) {
+                .pp {
+                    padding-bottom: 12px !important;
+                }
+            }
+            @media (min-width:992px) and (max-width:1198px) {
+                .pp {
+                    padding-bottom: 22px !important;
+                    padding-top: 31px !important;
+                }
+            }
+            @media (min-width:1470px) and (max-width:1473px) {
+                .pp {
+                    padding-bottom: 60px !important;
+                }
+            }
         }
     }
     
@@ -2847,8 +2896,14 @@
         .hh-new {
             font-size: 26px !important;
         }
+        .opposing-insurance-wrap .opposing-insurance-content ul li .teil_eins {
+            padding-left: 20px !important;
+        }
+        .opposing-insurance-wrap .opposing-insurance-content ul li .teil_zwei {
+            padding-left: 15px !important;
+        }
         .opposing-insurance-wrap .opposing-insurance-content ul li .newü {
-            padding-left: 1px !important;
+            padding-left: 15px !important;
         }
         .hfünff {
             margin-left: -10px !important;
@@ -3386,7 +3441,7 @@
             font-size: 57px !important;
         }
         .banner .new_content p {
-            font-size: 38px !important;
+            font-size: 28px !important;
         }
         .banner .new_content_ h2 {
             font-size: 34px !important;
@@ -3502,10 +3557,10 @@
             top: -15%;
         }
         .banner .new_content_ h2 {
-            font-size: 37px !important;
+            font-size: 39px !important;
         }
         .banner .new_content_ p {
-            font-size: 43px !important;
+            font-size: 29px !important;
         }
         .banner .banner-content img.schaden-managment {
             width: 43% !important;
@@ -3985,8 +4040,18 @@
     }
     
     .spannzwei {
-        padding-top: 13px;
+        padding-top: 12px;
         padding-bottom: 87px !important;
+    }
+    /* Hier dieser Code extra für Safari */
+    
+    @media not all and (min-resolution:.001dpcm) {
+        @supports (-webkit-appearance: none) {
+            .spannzwei {
+                padding-top: 28px;
+                padding-bottom: 87px !important;
+            }
+        }
     }
     
     .nurfarbe {
@@ -4006,6 +4071,11 @@
         padding-left: 3px !important;
         line-height: 1.2 !important;
     }
+    /* .new_schaden_unterpunkte span .span_schadenmanagment {
+        position: relative;
+        right: 10%;
+
+    } */
     
     .p_new p {
         font-size: medium !important;
@@ -4112,10 +4182,9 @@
         color: #FF7800;
         font-weight: bold;
     }
-    
-    .banner .banner-content h2 {
+    /* .banner .banner-content h2 {
         font-size: 30px;
-    }
+    } */
     
     .banner .banner-content h2 a img {
         height: 30px;
