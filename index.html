@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/popup.css">
     <link rel="stylesheet" href="assets/css/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="assets/libs/pace/pace.css">
     <link rel="stylesheet" type="text/css" href="assets/css/loader-default.css">
@@ -357,151 +358,12 @@
             <a href="tel:08005055050" id="aufleuten_nr" class="tel call-now"><i class="fa fa-phone" aria-hidden="true"></i> 0800 505 50 50</a>
             <div id="popup" class="hidden">
                 <div class="popup-content">
-                    Hotline jetzt Live verfügbar
+                    Ein Mitarbeiter ist gerade verfügbar. Rufe einfach an!
                 </div>
             </div>
 
         </div>
-        <style>
-            @keyframes glowing {
-                0% {
-                    background-color: #fca104;
-                    box-shadow: 0 0 5px #fca104;
-                }
-                50% {
-                    background-color: #ffbb33;
-                    box-shadow: 0 0 20px #ffbb33;
-                }
-                100% {
-                    background-color: #fca104;
-                    box-shadow: 0 0 5px #fca104;
-                }
-            }
-            
-            .aufleuten_nr {
-                animation: glowing 1300ms infinite;
-            }
-        </style>
 
-        <style>
-            /* .popup {
-                position: absolute;
-                background-color: transparent;
-                border-radius: 10px;
-                padding: 10px;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-                z-index: 999;
-            } */
-            
-            .popup-content {
-                font-size: 14px;
-                line-height: 1.5;
-                text-align: center;
-                color: #000000;
-            }
-            /* .popup::before {
-                content: '';
-                position: absolute;
-                bottom: -20px;
-                left: 50%;
-                margin-left: -10px;
-                width: 0;
-                height: 0;
-                border-style: solid;
-                border-width: 0 10px 20px 10px;
-                border-color: transparent transparent #fff transparent;
-            }
-            
-            .popup-trigger {
-                position: relative;
-                z-index: 1;
-            } */
-            
-            #popup {
-                position: fixed;
-                top: 87%;
-                left: 56%;
-                width: 15rem;
-                transform: translate(-50%, -50%);
-                background-color: white;
-                border-radius: 10px;
-                padding: 10px;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-                z-index: 999;
-                transition: opacity 0.5s ease-in-out;
-                opacity: 1;
-            }
-            
-            #popup.hidden {
-                opacity: 0;
-                /* display: none; */
-            }
-            
-            @media (max-width:480px) {
-                #popup {
-                    display: block;
-                }
-            }
-            
-            @media (min-width:480px) and (max-width:4000px) {
-                #popup {
-                    display: none;
-                }
-            }
-        </style>
-
-        <script>
-            // // Popup-Fenster nach 15 Sekunden anzeigen
-            // setTimeout(function() {
-            //     document.getElementById('popup').classList.remove('hidden');
-            // }, 3000);
-
-            // // Popup-Fenster nach 20 Sekunden ausblenden
-            // setTimeout(function() {
-            //     document.getElementById('popup').classList.add('hidden');
-            // }, 8000);
-
-
-
-
-
-
-            // Funktion, die prüft, ob das Popup-Fenster angezeigt werden soll
-            function shouldShowPopup() {
-                // Aktuelle Zeit abrufen
-                var now = new Date();
-
-                // Prüfen, ob aktueller Wochentag ein Werktag (Montag-Freitag) ist
-                var dayOfWeek = now.getDay();
-                if (dayOfWeek == 0 || dayOfWeek == 6) { // Sonntag (0) oder Samstag (6)
-                    return false;
-                }
-
-                // Prüfen, ob aktuelle Uhrzeit zwischen 10:00 Uhr und 17:00 Uhr liegt
-                var hour = now.getHours();
-                if (hour < 10 || hour >= 17) {
-                    return false;
-                }
-
-                // Wenn alle Bedingungen erfüllt sind, soll das Popup-Fenster angezeigt werden
-                return true;
-            }
-
-            // Popup-Fenster nur anzeigen, wenn alle Bedingungen erfüllt sind
-            if (shouldShowPopup()) {
-                // Popup-Fenster nach 15 Sekunden anzeigen
-                setTimeout(function() {
-                    document.getElementById('popup').classList.remove('hidden');
-                    document.getElementById('aufleuten_nr').classList.add('aufleuten_nr');
-                }, 5000);
-
-                // Popup-Fenster nach 20 Sekunden ausblenden
-                setTimeout(function() {
-                    document.getElementById('popup').classList.add('hidden');
-                    document.getElementById('aufleuten_nr').classList.remove('aufleuten_nr');
-                }, 15000);
-            }
-        </script>
         <!-- Banner End -->
 
         <!-- Contant Start -->
@@ -1059,6 +921,8 @@
     <script type="text/javascript" src="assets/js/counter.js"></script>
     <script type="text/javascript" src="assets/js/newsletter/post-newsletter.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/popup.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js
     "></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
