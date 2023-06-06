@@ -32,187 +32,6 @@ html {
     font-size: 18px;
 }
 
-#scrolli:hover {
-    background-color: #ff8113;
-}
-
-header.navtop {
-    background-color: #FFFFFF;
-    top: 0;
-    left: 0;
-    position: fixed;
-    z-index: 10;
-    width: 100%;
-    opacity: 96%;
-    transition: 0.4s;
-    /* max-height: 5.5%; */
-}
-
-
-/* header.navtop nav a img {
-    position: relative;
-    width: 55%;
-    top: 4pxpx;
-} */
-
-.pe-richsnippets {
-    display: none;
-}
-
-
-/* @media screen and (max-width: 981px) {
-    header.navtop {
-        height: 2.5%;
-    }
-}
-
-@media screen and (min-width: 1600px) {
-    header.navtop {
-        height: 3.5%;
-    }
-} */
-
-
-/* @media screen and (max-width: 980px) {
-    header.navtop .imgobenrechts {
-        width: auto;
-        height: auto;
-    }
-} */
-
-@media screen and (max-width: 980px) {
-    header.navtop .imgoben {
-        width: auto;
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 980px) {
-    header.navtop .imgobenlinks {
-        position: relative;
-        bottom: 10px;
-    }
-}
-
-
-/* @media screen and (max-width: 980px) {
-    header.navtop {
-        height: 54px;
-    }
-} */
-
-header.navtop .bl {
-    bottom: auto;
-}
-
-@media (min-width: 150px) and (max-width: 778px) {
-    /* header.navtop nav a img {
-        position: relative;
-        width: 40%;
-        /* top: 4pxpx;
-    } */
-    header.navtop .imgobenrechts {
-        width: 90%;
-        position: relative;
-        bottom: 17.6px;
-        /* height: auto; */
-    }
-}
-
-@media (min-width: 778) and (max-width: 899px) {
-    /* header.navtop nav a img {
-        position: relative;
-        width: 40%;
-        /* top: 4pxpx;
-    } */
-    header.navtop .imgobenrechts {
-        width: 50%;
-        /* height: auto; */
-    }
-}
-
-@media (min-width: 900px) and (max-width: 4000px) {
-    header.navtop .imgobenrechts {
-        width: 50%;
-        /* height: auto; */
-    }
-}
-
-@media (min-width: 200px) and (max-width: 4000px) {
-    header.navtop ul li a {
-        position: relative;
-        align-items: center;
-        /* bottom: -3%; */
-        font-size: 13px;
-    }
-}
-
-@media (min-width: 1700px) and (max-width: 4000px) {
-    header.navtop .bl {
-        bottom: 3.8px;
-        position: relative;
-        align-items: center;
-        font-size: 13px;
-    }
-}
-
-@media (min-width: 1444px) and (max-width: 1800px) {
-    header.navtop .bl {
-        top: -2.6px;
-        position: relative;
-        align-items: center;
-        font-size: 13px;
-    }
-}
-
-@media (min-width: 1151px) and (max-width: 1444px) {
-    header.navtop .bl {
-        top: -1px;
-        position: relative;
-        align-items: center;
-        font-size: 13px;
-    }
-}
-
-@media (min-width: 750px) and (max-width: 1150px) {
-    header.navtop .bl {
-        top: -0.4px;
-        position: relative;
-        align-items: center;
-        font-size: 13px;
-    }
-}
-
-@media(min-width: 200px) and (max-width: 4000px) {
-    header.navtop {
-        height: 60px !important;
-    }
-}
-
-@media(min-height: 200px) and (max-height: 4000px) {
-    header.navtop {
-        height: auto;
-    }
-    header.navtop nav a img {
-        width: 60%;
-        /* top: 4px; */
-    }
-}
-
-@media screen and (Max-Width:980px) {
-    #scrolli {
-        position: fixed;
-        margin-bottom: 5px;
-        margin-right: 5px;
-        margin-top: 5px;
-        bottom: 0px;
-        right: 0px;
-        border-radius: 50%;
-        width: 36px;
-        height: 36px;
-    }
-}
-
 body,
 textarea,
 input {
@@ -495,7 +314,7 @@ header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     transition: 0.4s;
     transform: scale(1.06);
     border-bottom: rgb(214, 131, 22), 3px solid;
-    color: #ff8113;
+    color: #FF7800;
 }
 
 header .navbar-nav ul #nava {
@@ -533,56 +352,13 @@ header .navbar-nav li:last-child a {
     overflow: hidden;
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-.dropdown-menu {
-    border: 2px solid #F07D00;
-}
-
-.dropdown-menu .dropdown-item:hover {
-    color: #ff8c00;
-}
-
-header .navbar-nav li .dropdown-menu .fa:hover {
-    transition: 0.4s;
-    transform: scale(1.06);
-    border-bottom: rgb(214, 131, 22), 3px solid;
-    color: #ff8113;
-}
-
-
-/*
-.claims-settlement-wrap .claims-settlement-content .bild1 {
-
-height: 90px;
-width: 100px;
-}
-.claims-settlement-wrap .claims-settlement-content .bild2 {
-
-	height: 90px;
-	width: 100px;
-}
-.claims-settlement-wrap .claims-settlement-content .bild3 {
-
-		height: 90px;
-		width: 100px;
-}
-.claims-settlement-wrap .claims-settlement-content .bild4 {
-
-		height: 90px;
-		width: 100px;
-}
-
-*/
-
 .banner .call-now {
     font-weight: bolder;
     font-family: Axiforma;
     height: 61px;
     width: 240px;
-    background: #000000;
+    background: #343434;
+    border-radius: 10px 10px 0px 0px;
     font-size: 21px;
     line-height: 1;
     padding: 0;
@@ -595,12 +371,7 @@ width: 100px;
     top: 235px;
     right: -89px;
     transform: rotate(270deg);
-    z-index: 4;
-}
-
-.call-now .fa {
-    color: #FFFFFF;
-    z-index: 5;
+    z-index: 50;
 }
 
 .banner .wa-now {
@@ -641,7 +412,7 @@ width: 100px;
 
 .banner .banner-content h1,
 .banner .banner-content h2 {
-    font-size: 41px;
+    font-size: 48px;
     line-height: 1.34;
     font-weight: 700;
     color: #FF7800;
@@ -708,23 +479,6 @@ width: 100px;
     transition: 0.4s;
 }
 
-.banner .banner-content_new .banner-btn a:hover {
-    background-color: transparent;
-    border: 1.5px solid #FF7800;
-    cursor: pointer;
-    color: #000000;
-    background: #fff !important;
-    transition: 0.7s;
-}
-
-.banner .banner-content .btn a:hover {
-    background-color: #FFFFFF;
-    border: 2px solid #FF7800;
-    cursor: pointer;
-    color: #000000;
-    transition: 0.4s;
-}
-
 .banner .banner-content .kfz-gutachter a:hover {
     background-color: transparent;
     border: 2px solid rgb(85, 85, 85);
@@ -779,6 +533,80 @@ width: 100px;
     display: none;
 }
 
+.dropdown {
+    background: #7b1fa2;
+    color: #fff;
+    cursor: pointer;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 1;
+    transform: perspective(1000px);
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu {
+    background-color: #fff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    text-align: center;
+    top: 0;
+    visibility: hidden;
+    z-index: -99999;
+}
+
+.dropdown-menu li:first-child {
+    cursor: default;
+}
+
+.dropdown-menu a {
+    color: #000;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.dropdown-menu a:hover {
+    background: #ba68c8;
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+    background: #7b1fa2;
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    width: 100%;
+    -webkit-transition: all .5s, background, 2s .5s linear;
+    transition: all .5s, background 2s .5s linear;
+}
+
+.dropdown {
+    transition: 0.5s;
+}
+
+.dropdown-menu {
+    width: 290px;
+    background-color: #6f6c6c;
+}
+
+.container .faqs-search-wrap ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(103, 98, 98);
+    opacity: 1;
+    /* Firefox */
+}
+
 
 /*-_-_Banner_CSS_End_-_-*/
 
@@ -831,7 +659,7 @@ h4 {
 }
 
 .handling-accident-step-wrap {
-    background: #FF9D33;
+    background: rgba(255, 157, 51, 0.94);
 }
 
 .handling-accident-step-wrap .handling-accident-step {
@@ -1067,7 +895,7 @@ h4 {
     line-height: 1.3;
     height: 63px;
     border-radius: 36px;
-    background: #FF9D33;
+    background: #FF7800;
     width: 347px;
     color: #fff;
     display: flex;
@@ -1189,16 +1017,7 @@ h4 {
     border: 1px solid #FF7800;
     border-radius: 20px;
     background: #FAFAFA;
-    /* padding: 58px 35px 74px 52px; */
-    padding: 17px 26px 33px 34px !important;
-}
-
-.opposing-insurance-wrap .new_padding- {
-    border: 1px solid #FF7800;
-    border-radius: 20px;
-    background: #FAFAFA;
-    /* padding: 58px 35px 74px 52px; */
-    padding: 17px 20px 33px 34px !important;
+    padding: 58px 35px 74px 52px;
 }
 
 .opposing-insurance-wrap .opposing-insurance-content h5 {
@@ -1224,7 +1043,7 @@ h4 {
 
 .opposing-insurance-wrap .opposing-insurance-content ul li {
     border-bottom: 1px solid #B9B9B9;
-    padding: 12px 0 23.5px;
+    padding: 30px 0 23.5px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -1542,17 +1361,12 @@ footer .footer-content p {
     color: #fff;
 }
 
-.footer-link-wrap .footer-link-content ul li a:hover {
-    color: #FF9D33;
-    transition: .4s;
-}
-
 .footer-link-wrap .footer-link-content ul {
     margin-right: 55px;
 }
 
 .footer-link-wrap .footer-link-content ul:last-child {
-    margin-right: -21px;
+    margin-right: 0px;
 }
 
 .footer-social-outer-wrap {
@@ -1565,19 +1379,12 @@ footer .footer-content p {
     margin: 0 auto 121px;
 }
 
-.ganzuntenlogs {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 24px;
-    margin-bottom: 24px;
-}
-
 .footer-social-outer-wrap .footer-social-wrap {
     padding-bottom: 10px;
 }
 
 .footer-social-outer-wrap .footer-social-wrap h6 {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 1.7;
     color: #fff;
     margin-bottom: 34px;
@@ -1603,23 +1410,11 @@ footer .footer-content p {
 }
 
 .footer-social-outer-wrap .footer-img-wrap img:first-child {
-    width: 200px;
     margin-left: 0;
 }
 
 .footer-social-outer-wrap .footer-img-wrap img:last-child {
-    width: 120px;
     margin-bottom: 8px;
-}
-
-.footer-social-outer-wrap .footer-social-wrap img:first-child {
-    width: 32px;
-    text-align: center;
-}
-
-.footer-social-outer-wrap .footer-social-wrap img:last-child {
-    width: 32px;
-    text-align: center;
 }
 
 .footer-other-link-wrap {
@@ -1682,11 +1477,7 @@ header.index2-header .navbar-nav li:last-child a {
 }
 
 header.index2-header .navbar-nav li .dropdown-menu .dropdown-item {
-    color: #373737;
-}
-
-header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
-    color: #FF9D33;
+    color: #000;
 }
 
 .index2-banner.banner {
@@ -1701,43 +1492,20 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
 }
 
 .index2-banner.banner .banner-content img.banner-desktop-img {
-    top: 105.5px;
-    right: -9%;
-    width: 68.8%;
-    height: auto;
-}
-
-@media (min-width: 2900px) and (max-width: 3300px) {
-    .index2-banner.banner .banner-content img.banner-desktop-img {
-        top: 75.5px;
-        right: -4%;
-        width: 58.8%;
-        height: auto;
-    }
-}
-
-@media (min-width: 3301px) and (max-width: 4000px) {
-    .index2-banner.banner .banner-content img.banner-desktop-img {
-        top: 75.5px;
-        right: -4%;
-        width: 48.8%;
-        height: auto;
-    }
+    top: 7.5px;
+    right: -23%;
+    width: 92.8%;
 }
 
 .does-it-work-wrap {
-    background: #fff;
+    background: #373737;
     padding: 59px 0 130px;
 }
 
 .does-it-work-wrap h2 {
     margin-bottom: 100px;
-    color: #000000;
+    color: #fff;
     text-align: center;
-}
-
-.does-it-work-wrap h3 {
-    color: #000000;
 }
 
 .does-it-work-wrap .does-it-work-content {
@@ -1759,7 +1527,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     line-height: 2;
     padding-left: 78px;
     position: relative;
-    color: #000000;
+    color: #fff;
     margin-bottom: 6px;
 }
 
@@ -1776,8 +1544,8 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #000000;
-    border: 2px solid #000000;
+    color: #fff;
+    border: 2px solid #fff;
     border-radius: 50%;
     left: 0;
     top: 4px;
@@ -1932,26 +1700,8 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     right: 0;
 }
 
-.testtes .tessii img {
-    position: absolute;
-    width: calc(30% - 15px);
-    top: 53%;
-    transform: translateY(-50%);
-    right: 0;
-}
-
-@media (min-width:2800px) and (max-width:3100px) {
-    .testtes .neu_tesi img {
-        position: absolute !important;
-        width: calc(20% - -3px) !important;
-        top: 52% !important;
-        transform: translateY(-56%) !important;
-        right: -1px !important;
-    }
-}
-
 .compensation-loss-wrap.accident-sponsors-wrap {
-    background: #FF9D33;
+    background: #FFA23F;
 }
 
 .compensation-loss-wrap.accident-sponsors-wrap .accident-sponsors-content {
@@ -1986,44 +1736,24 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     height: 339px;
 }
 
-
-/*
-.similar-services-wrap .gutach .gutachter {
-	position: relative;
-	height: 235px;
-}*/
-
 .similar-services-wrap .kfz-werkstatt-services .similar-services-content-inner {
     background: url(../img/page/kfz-werkstatt.png) left top no-repeat;
     background-size: cover;
-    background-position: 0px 2px;
 }
 
 .similar-services-wrap .verkehrsrecht-services .similar-services-content-inner {
-    background: url(../img/page/madammo.png) left top no-repeat;
-    background-size: 50%;
-    background-position: 0px 2px;
-    background-color: #FF9D33;
-    background-position-x: center;
-    background-position-y: 60px;
+    background: url(../img/page/anwalt-verkehrsrecht.png) left top no-repeat;
+    background-size: cover;
 }
 
 .similar-services-wrap .gutachten-services .similar-services-content-inner {
-    background: url(../img/page/kfz--neu.png) left top no-repeat;
-    background-size: 52%;
-    background-position: 0px 2px;
-    background-color: #FF9D33;
-    background-position-x: center;
-    background-position-y: 43px;
+    background: url(../img/page/kfzgutachter-sachverstandiger.png) left top no-repeat;
+    background-size: cover;
 }
 
 .similar-services-wrap .ersatzwagen-services .similar-services-content-inner {
-    background: url(../img/page/auto-letzte.png) left top no-repeat;
-    background-size: 110%;
-    background-position: 0px 2px;
-    background-color: #FF9D33;
-    background-position-x: center;
-    background-position-y: 43px;
+    background: url(../img/page/mietwagen-ersatzwagen.png) left top no-repeat;
+    background-size: cover;
 }
 
 .similar-services-wrap .similar-services-content-inner h3 {
@@ -2100,10 +1830,10 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
 }
 
 .sachverstandiger-banner.index2-banner.banner .banner-content img.banner-desktop-img {
-    width: 420px;
+    width: 590px;
     top: auto;
     bottom: 0;
-    left: 66%;
+    left: 60%;
 }
 
 .rental-car-wrap4.rental-car-wrap .rental-car-img img {
@@ -2490,9 +2220,8 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
 .faq-benefits a {
     position: absolute;
     bottom: 0;
-    right: 50%;
+    right: 0;
     text-align: center;
-    align-items: center;
 }
 
 .faq-benefits a span {
@@ -2640,10 +2369,10 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     }
     .banner .banner-content h1,
     .banner .banner-content h2 {
-        font-size: 35px;
+        font-size: 44px;
     }
     .banner .banner-content p {
-        font-size: 28px;
+        font-size: 32px;
     }
     .banner .call-now {
         height: 50px;
@@ -2698,26 +2427,14 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
         right: -11%;
         width: 95%;
     }
-    .input-group-append .btn:hover {
-        background: #505150;
-    }
     .claims-settlement-wrap .claims-settlement-content p {
         font-size: 23px;
     }
     .claims-settlement-wrap .claims-settlement-content ul li {
         padding: 0 32px;
     }
-    .claims-settlement-wrap .claims-settlement-content .bild2 {
+    .claims-settlement-wrap .claims-settlement-content ul li img {
         max-width: 105px;
-    }
-    .claims-settlement-wrap .claims-settlement-content .bild3 {
-        max-width: 105px;
-    }
-    .claims-settlement-wrap .claims-settlement-content .bild4 {
-        max-width: 105px;
-    }
-    .claims-settlement-wrap .claims-settlement-content .bild1 {
-        max-width: 135px;
     }
     .claims-settlement-wrap .claims-settlement-content {
         padding: 22px 0 32px;
@@ -2786,7 +2503,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
         margin-right: 62px;
     }
     .our-services .our-services-content h3 {
-        font-size: 20px;
+        font-size: 28px;
         margin-bottom: 18px;
     }
     .our-services .our-services-content p {
@@ -2959,7 +2676,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     }
     footer .footer-content p {
         font-size: 23px;
-        margin-bottom: 100px;
+        margin-bottom: 170px;
     }
     .footer-link-wrap .footer-link-content h5 {
         font-size: 24px;
@@ -2972,7 +2689,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     .footer-social-outer-wrap .footer-social-wrap h6 {
         font-size: 22px;
         line-height: 1.6;
-        margin-top: 55px;
+        margin-bottom: 26px;
     }
     .footer-social-outer-wrap .footer-social-wrap ul li {
         margin-right: 38px;
@@ -3097,8 +2814,8 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     /*-_-_anwalt-2_CSS_End_-_-*/
     /*-_-_kfz-sachverstandiger-2_CSS_Start_-_-*/
     .sachverstandiger-banner.index2-banner.banner .banner-content img.banner-desktop-img {
-        width: 373px;
-        left: 68%;
+        width: 500px;
+        left: 64%;
     }
     .rental-car-wrap4.rental-car-wrap .rental-car-img img {
         top: 47%;
@@ -3236,12 +2953,6 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     /*-_-_impressum-2_CSS_End_-_-*/
 }
 
-@media (min-width:1713px) and (max-width:4500px) {
-    .footer-link-wrap .footer-link-content:last-child {
-        min-width: 400px !important;
-    }
-}
-
 @media only screen and (max-width: 1600px) {
     header .navbar-nav li {
         margin-left: 40px;
@@ -3272,12 +2983,12 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     }
     .banner .banner-content h1,
     .banner .banner-content h2 {
-        font-size: 33px;
+        font-size: 40px;
         line-height: 1.2;
         margin-bottom: 8px;
     }
     .banner .banner-content p {
-        font-size: 22px;
+        font-size: 28px;
         margin-bottom: 18px;
     }
     .banner .banner-content .banner-btn {
@@ -3308,11 +3019,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     }
     .banner .call-now i {
         margin-right: 7px;
-        font-size: 25px;
-        color: #F8F8F8;
-    }
-    .banner .tel i {
-        font-size: 17.4px !important;
+        font-size: 20px;
     }
     .banner .wa-now {
         height: 45px;
@@ -3335,28 +3042,12 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     .claims-settlement-wrap .claims-settlement-content ul li {
         padding: 0 28px;
     }
-    .claims-settlement-wrap .claims-settlement-content .bild1 {
-        max-width: 120px;
-    }
-    .claims-settlement-wrap .claims-settlement-content .bild2 {
-        max-width: 98px;
-    }
-    .claims-settlement-wrap .claims-settlement-content .bild3 {
-        max-width: 98px;
-    }
-    .claims-settlement-wrap .claims-settlement-content .bild4 {
+    .claims-settlement-wrap .claims-settlement-content ul li img {
         max-width: 98px;
     }
     h2 {
         font-size: 40px;
     }
-    /* .new_padding {
-        font-size: 23px !important;
-    }
-    .ende_hzwei {
-        font-size: 25px !important;
-        text-align: center !important;
-    } */
     .handling-accident-step-wrap .handling-accident-step {
         padding: 65px 0 100px;
     }
@@ -3573,7 +3264,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     }
     footer .footer-content p {
         font-size: 21px;
-        margin-bottom: 80px;
+        margin-bottom: 130px;
     }
     .footer-link-wrap .footer-link-content h5 {
         font-size: 22px;
@@ -3716,13 +3407,8 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     /*-_-_anwalt-2_CSS_End_-_-*/
     /*-_-_kfz-sachverstandiger-2_CSS_Start_-_-*/
     .sachverstandiger-banner.index2-banner.banner .banner-content img.banner-desktop-img {
-        width: 323px;
-        left: 65%;
-    }
-    .sachverstandiger-banner.index2-banner.banner .banner-content img.kfz-e {
-        width: 340px;
-        left: 69%;
-        top: -35%;
+        width: 435px;
+        left: 63%;
     }
     .rental-car-wrap4.rental-car-wrap .rental-car-img img {
         top: 48%;
@@ -3913,11 +3599,11 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     }
     .banner .banner-content h1,
     .banner .banner-content h2 {
-        font-size: 28px;
+        font-size: 34px;
         line-height: 1.2;
     }
     .banner .banner-content p {
-        font-size: 22px;
+        font-size: 24px;
         margin-bottom: 15px;
     }
     .banner .banner-content .banner-btn {
@@ -3977,17 +3663,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     .claims-settlement-wrap .claims-settlement-content ul li {
         padding: 0 22px;
     }
-    .claims-settlement-wrap .claims-settlement-content .bild1 {
-        max-height: 80px;
-        max-width: 100px;
-    }
-    .claims-settlement-wrap .claims-settlement-content .bild2 {
-        max-width: 82px;
-    }
-    .claims-settlement-wrap .claims-settlement-content .bild3 {
-        max-width: 82px;
-    }
-    .claims-settlement-wrap .claims-settlement-content .bild4 {
+    .claims-settlement-wrap .claims-settlement-content ul li img {
         max-width: 82px;
     }
     .claims-settlement-wrap .claims-settlement-content {
@@ -4235,7 +3911,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     }
     footer .footer-content p {
         font-size: 18px;
-        margin-bottom: 70px;
+        margin-bottom: 100px;
     }
     footer .footer-content {
         max-width: 745px;
@@ -4371,13 +4047,8 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
         width: 61%;
     }
     .sachverstandiger-banner.index2-banner.banner .banner-content img.banner-desktop-img {
-        width: 280px;
-        left: 66%;
-    }
-    .sachverstandiger-banner.index2-banner.banner .banner-content img.kfz-e {
-        width: 350px;
-        left: 70%;
-        bottom: 15%;
+        width: 370px;
+        left: 61%;
     }
     /*-_-_kfz-sachverstandiger-2_CSS_End_-_-*/
     /*-_-_hamburg-2_CSS_Start_-_-*/
@@ -4567,10 +4238,10 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     }
     .banner .banner-content h1,
     .banner .banner-content h2 {
-        font-size: 24px;
+        font-size: 28px;
     }
     .banner .banner-content p {
-        font-size: 18px;
+        font-size: 20px;
         margin-bottom: 16px;
     }
     .banner .banner-content .banner-btn {
@@ -4886,7 +4557,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
         margin: 0 auto 67px;
     }
     .footer-link-wrap .footer-link-content:last-child {
-        max-width: 260px;
+        max-width: 200px;
     }
     .footer-link-wrap .footer-link-content ul {
         margin-right: 40px;
@@ -5027,7 +4698,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
         bottom: 12px;
     }
     .index2-banner.banner .banner-content img.banner-desktop-img {
-        top: 100px;
+        top: -30.5px;
     }
     /*-_-_Index2_CSS_End_-_-*/
     /*-_-_werkstatt-2_CSS_Start_-_-*/
@@ -5047,8 +4718,8 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     /*-_-_anwalt-2_CSS_End_-_-*/
     /*-_-_kfz-sachverstandiger-2_CSS_Start_-_-*/
     .sachverstandiger-banner.index2-banner.banner .banner-content img.banner-desktop-img {
-        width: 210px;
-        left: 65%;
+        width: 290px;
+        left: 62%;
     }
     .rental-car-wrap4.rental-car-wrap .rental-car-img img {
         top: 45%;
@@ -5306,28 +4977,11 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     .claims-settlement-wrap .claims-settlement-content ul li {
         padding: 0 14.5px;
     }
-    /*
-	.claims-settlement-wrap .claims-settlement-content ul li img {
-		max-width: 57px;
-	}*/
-    .claims-settlement-wrap .claims-settlement-content .bild1 {
-        max-width: 70px;
-        max-height: 57px;
-    }
-    .claims-settlement-wrap .claims-settlement-content .bild2 {
-        max-width: 57px;
-    }
-    .claims-settlement-wrap .claims-settlement-content .bild3 {
-        max-width: 57px;
-    }
-    .claims-settlement-wrap .claims-settlement-content .bild4 {
+    .claims-settlement-wrap .claims-settlement-content ul li img {
         max-width: 57px;
     }
     h2 {
         font-size: 24px;
-    }
-    h2.te_ {
-        font-size: 20px;
     }
     .handling-accident-step-wrap .handling-accident-step {
         padding: 28px 0 34px;
@@ -5606,7 +5260,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     }
     footer .footer-content p {
         font-size: 12px;
-        margin-bottom: 41px;
+        margin-bottom: 51px;
     }
     footer .footer-content {
         max-width: 450px;
@@ -5623,7 +5277,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
         margin-right: 24px;
     }
     .footer-link-wrap .footer-link-content:last-child {
-        max-width: 172px;
+        max-width: 155px;
     }
     .footer-link-wrap,
     .footer-social-outer-wrap {
@@ -5663,9 +5317,9 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     }
     /*-_-_Index2_CSS_Start_-_-*/
     .index2-banner.banner .banner-content img.banner-desktop-img {
-        width: 68%;
-        right: -14%;
-        top: 79px;
+        width: 78%;
+        right: -20%;
+        top: 22px;
     }
     .does-it-work-wrap {
         padding: 25px 0 61px;
@@ -5787,7 +5441,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     /*-_-_anwalt-2_CSS_Start_-_-*/
     .anwalt-banner.index2-banner.banner .banner-content img.banner-desktop-img {
         width: 240px;
-        left: 65.5%;
+        left: 58.5%;
     }
     .anwalt-banner.index2-banner.banner .banner-content {
         width: 62%;
@@ -5798,8 +5452,8 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
         width: 61%;
     }
     .sachverstandiger-banner.index2-banner.banner .banner-content img.banner-desktop-img {
-        width: 168px;
-        left: 70%;
+        width: 230px;
+        left: 62%;
     }
     .rental-car-wrap4.rental-car-wrap .rental-car-img img {
         top: 42%;
@@ -6107,7 +5761,6 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     }
     header .navbar-nav {
         align-items: flex-start;
-        text-align: center;
         background: #fff;
         padding: 5px 0;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
@@ -6142,7 +5795,6 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
         border-radius: 0;
         padding: 0;
         margin: 0;
-        text-align: center;
     }
     .banner .banner-content {
         text-align: center;
@@ -6152,7 +5804,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
         margin-bottom: 11.3px;
     }
     .banner .banner-content p {
-        font-size: 19px;
+        font-size: 24px;
         line-height: 1.1;
         margin-bottom: 17.2px;
     }
@@ -6169,7 +5821,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     }
     .banner .banner-content h1,
     .banner .banner-content h2 {
-        font-size: 24px;
+        font-size: 36px;
         margin-bottom: 11.3px;
         min-height: 86.4px;
         display: flex;
@@ -6217,31 +5869,12 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
         font-size: 20px;
         margin-bottom: 9px;
     }
-    /*
-	.claims-settlement-wrap .claims-settlement-content ul li img {
-		max-width: 70px;
-		width: 100%;
-	}
-
-	.claims-settlement-wrap .claims-settlement-content ul li:nth-child(2) img {
-		max-width: 79px;
-	}*/
-    .claims-settlement-wrap .claims-settlement-content .bild1 {
-        max-width: 100px;
-        max-height: 65px;
-        width: 100%;
-    }
-    .claims-settlement-wrap .claims-settlement-content .bild2 {
+    .claims-settlement-wrap .claims-settlement-content ul li img {
         max-width: 70px;
         width: 100%;
     }
-    .claims-settlement-wrap .claims-settlement-content .bild3 {
-        max-width: 70px;
-        width: 100%;
-    }
-    .claims-settlement-wrap .claims-settlement-content .bild4 {
-        max-width: 70px;
-        width: 100%;
+    .claims-settlement-wrap .claims-settlement-content ul li:nth-child(2) img {
+        max-width: 79px;
     }
     .claims-settlement-wrap .claims-settlement-content ul li {
         padding: 0 22px;
@@ -6430,13 +6063,8 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     .opposing-insurance-wrap .opposing-insurance-content h5 {
         font-size: 18px;
     }
-    .opposing-insurance-wrap .new_liste ul li {
-        padding: 15.5px 0 12.5px 19.5px;
-        /* padding: 15.5px 0 11.5px -0.5px; */
-    }
     .opposing-insurance-wrap .opposing-insurance-content ul li {
-        /* padding: 15.5px 0 12.5px 19.5px; */
-        padding: 15.5px 0 11.5px -0.5px;
+        padding: 15.5px 0 12.5px 19.5px;
     }
     .opposing-insurance-wrap .opposing-insurance-content ul li img {
         width: 39px;
@@ -6586,7 +6214,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
         font-size: 14px;
     }
     .footer-link-wrap .footer-link-content ul {
-        margin-right: 4px;
+        margin-right: 21px;
     }
     .footer-link-wrap .footer-link-content {
         width: 50%;
@@ -6598,14 +6226,14 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
         margin: 0 auto 37px;
     }
     .footer-social-outer-wrap {
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         margin: 0 auto 34.3px;
     }
     .footer-social-outer-wrap .footer-img-wrap {
         width: 100%;
-        margin-bottom: 3px;
+        margin-bottom: 50px;
         align-items: flex-end;
         justify-content: center;
     }
@@ -6799,7 +6427,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     }
     .index2-banner.banner .banner-content img.banner-mobile-img {
         display: block;
-        width: 130px;
+        max-width: unset;
         margin: 55px auto -10px;
     }
     /*-_-_Index2_CSS_End_-_-*/
@@ -7045,9 +6673,6 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
 }
 
 @media only screen and (max-width: 480px) {
-    .index2-banner.banner {
-        height: 610px;
-    }
     .banner .banner-content .banner-btn a {
         height: 50px;
     }
@@ -7068,31 +6693,8 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     }
     .index2-banner.banner .banner-content img.banner-mobile-img {
         display: inline-block;
-        width: 130px;
+        max-width: unset;
         margin: 55px -30px -10px;
-        bottom: 11px;
-        position: relative;
-    }
-    .index2-banner.banner .banner-content img.anwa {
-        display: inline-block;
-        width: 160px;
-        margin: 55px -30px -10px;
-        bottom: 6px;
-        position: relative;
-    }
-    .index2-banner.banner .banner-content img.ersatz {
-        display: inline-block;
-        width: 350px;
-        margin: 55px -30px -10px;
-        bottom: 30px;
-        position: relative;
-    }
-    .index2-banner.banner .banner-content img.werks {
-        display: inline-block;
-        width: 190px;
-        margin: 55px -30px -10px;
-        bottom: 2px;
-        position: relative;
     }
 }
 
@@ -7118,264 +6720,11 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     }
     .index2-banner.banner .banner-content img.banner-mobile-img {
         display: inline-block;
-        width: 110px;
-        /* bottom: -10px; */
+        max-width: 100%;
         margin: 55px 0px -10px;
     }
 }
 
-@media screen and (min-width:1710px) {
-    .claims-settlement-wrap .claims-settlement-content .bild1 {
-        max-width: 135px;
-        width: 100%;
-    }
-    .claims-settlement-wrap .claims-settlement-content .bild2 {
-        max-width: 105px;
-        width: 100%;
-    }
-    .claims-settlement-wrap .claims-settlement-content .bild3 {
-        max-width: 105px;
-        width: 100%;
-    }
-    .claims-settlement-wrap .claims-settlement-content .bild4 {
-        max-width: 105px;
-        width: 100%;
-    }
-}
-
-.copyright {
-    font-size: 12px;
-    text-align: center;
-    color: #ffffff;
-    padding-bottom: 40px;
-    position: relative;
-    bottom: 50px;
-}
-
-@media screen and (max-width: 980px) {
-    .copyright {
-        bottom: 10px;
-    }
-}
-
-.bildver {
-    height: 95%;
-}
-
-@media (min-width: 768px) and (max-width: 900px) {
-    .sachverstandiger-banner.index2-banner.banner .banner-content img.kfz-e {
-        width: 250px;
-        left: 67%;
-        top: -22%;
-    }
-}
-
-@media (min-width: 901px) and (max-width: 1000px) {
-    .sachverstandiger-banner.index2-banner.banner .banner-content img.kfz-e {
-        width: 250px;
-        left: 70%;
-        top: -17%;
-    }
-}
-
-@media (min-width: 1001px) and (max-width: 1200px) {
-    .sachverstandiger-banner.index2-banner.banner .banner-content img.kfz-e {
-        width: 300px;
-        left: 70%;
-        top: -27%;
-    }
-}
-
-@media (min-width: 1201px) and (max-width: 1439px) {
-    .sachverstandiger-banner.index2-banner.banner .banner-content img.kfz-e {
-        width: 380px;
-        left: 68%;
-        top: -25%;
-    }
-}
-
-@media (min-width: 1440px) and (max-width: 1599px) {
-    .sachverstandiger-banner.index2-banner.banner .banner-content img.kfz-e {
-        width: 450px;
-        left: 67%;
-        top: -30%;
-    }
-}
-
-@media (min-width: 1600px) and (max-width: 2000px) {
-    .sachverstandiger-banner.index2-banner.banner .banner-content img.kfz-e {
-        width: 460px;
-        left: 67%;
-        top: -24%;
-    }
-}
-
-@media (min-width: 2000px) and (max-width: 4000px) {
-    .sachverstandiger-banner.index2-banner.banner .banner-content img.kfz-e {
-        width: 550px;
-        left: 67%;
-        top: -24%;
-    }
-}
-
-
-/* .wrapperr ul {
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    list-style: none;
-}
-
-.wrapperr ul li {
-    margin: 15px 0;
-
-}
-
-
-.wrapperr ul li a {
-    color: rgb(180, 11, 11);
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: 500;
-    padding: 5px 50px;
-} */
-
-.langimg {
-    position: relative;
-    margin-left: 24px;
-    padding: 3px 2px 0px;
-}
-
-@media (min-width: 0px) and (max-width: 766px) {
-    .langimg,
-    .lang {
-        display: none;
-    }
-}
-
-.lang {
-    color: #343434;
-    font-size: 10px;
-    font-weight: normal;
-    margin-right: 3px;
-    margin-left: 3px;
-    font-family: 'Axiforma';
-    font-style: normal;
-}
-
-@media screen and (max-width: 750px) {
-    .bu {
-        display: none;
-    }
-}
-
-
-/* .buu {
-    background-color: #FF9D33;
-    border-radius: 50%;
-    position: relative;
-    margin-left: 30px;
-    padding: 3px 2px 0px;
-    align-items: center;
-    opacity: 90%;
-    font-size: 10px;
-    border: 2px solid #fff;
-    color: #fff;
-    box-shadow: 1px 1px 5px rgb(183, 178, 178);
-    text-decoration: none;
-
-} */
-
-.buu:hover {
-    color: #fff;
-}
-
-@media screen and (min-width: 750px) {
-    .buu {
-        display: none;
-    }
-}
-
-@media(min-height: 200px) and (max-height: 750px) {
-    header.navtop {
-        height: 60px;
-    }
-    header.navtop nav a img {
-        width: 100%;
-        /* top: 4px; */
-    }
-    header.navtop .buu {
-        bottom: 34.5px !important;
-    }
-}
-
-@media(min-height: 751px) and (max-height: 4000px) {
-    header.navtop nav a img {
-        width: 100%;
-        /* top: 4px; */
-    }
-}
-
-@media screen and (max-width: 750px) {
-    .buu {
-        margin-left: 100px !important;
-        position: relative !important;
-        bottom: 37px !important;
-        right: -69% !important;
-        top: -37px !important;
-    }
-}
-
-@media (min-width:320px) and (max-width: 480px) {
-    .buu {
-        margin-left: 100px !important;
-        position: relative !important;
-        bottom: 37px !important;
-        right: -59% !;
-    }
-}
-
-.tes {
-    display: none !important;
-}
-
-@media (max-width: 600px) {
-    .tes {
-        display: block !important;
-    }
-}
-
-.test {
-    display: block !important;
-}
-
-@media (min-width:150px) and (max-width: 700px) {
-    .buu {
-        bottom: 26px !important;
-        position: relative !important;
-    }
-}
-
-@media (min-width: 1719px) and (max-width: 4000px) {
-    .new-version {
-        margin-top: 40px;
-    }
-}
-
-.new-ver {
-    margin-top: -15px;
-}
-
-@media (min-width: 50px) and (max-width: 450px) {
-    .new-ver {
-        margin-top: 0;
-    }
-}
-
-@media (min-width: 1601px) and (max-width: 4000px) {
-    .new-ver {
-        margin-top: -3.6px;
-    }
+.kk:hover {
+    color: #34af23;
 }

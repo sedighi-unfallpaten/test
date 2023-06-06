@@ -358,7 +358,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 1.2;
 }
 
@@ -2514,7 +2514,7 @@ textarea.form-control {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #373737;
+  color: #212529;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -2538,7 +2538,7 @@ textarea.form-control {
 }
 
 .btn:hover {
-  color: #373737;
+  color: #212529;
   text-decoration: none;
 }
 
@@ -2805,9 +2805,9 @@ fieldset:disabled a.btn {
 
 .btn-light:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active,
 .show > .btn-light.dropdown-toggle {
-  color: #fff;
-  background-color: rgb(243, 151, 50);
-  border-color: rgb(243, 151, 50);
+  color: #212529;
+  background-color: #dae0e5;
+  border-color: #d3d9df;
 }
 
 .btn-light:not(:disabled):not(.disabled):active:focus, .btn-light:not(:disabled):not(.disabled).active:focus,

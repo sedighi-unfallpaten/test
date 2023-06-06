@@ -5,7 +5,7 @@ function openNav() {
 
 function closeNav() {
     document.getElementById("pagenav").style.width = "0%";
-    // $('#pagenav').hide();
+    $('#pagenav').hide();
     $('#submenu-mobile').hide();
     $('.fa-angle-up').hide();
     $('.fa-angle-down').show();

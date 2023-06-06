@@ -1728,7 +1728,7 @@ li.slick-active button {
     color: white;
     background-color: #f39732;
     border-color: #f39732;
-} 
+}
 
 .report-initiator .btn .btn-light:active {
     color: white;
@@ -1750,7 +1750,7 @@ li.slick-active button {
 
 
 .btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show > .btn-light.dropdown-toggle {
-    color: #fff;
+    color: #212529;
     background-color: #f39732;
     border-color: #f39732;
 }
