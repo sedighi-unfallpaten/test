@@ -49,29 +49,29 @@ function validateFahrzeugscheinVorne() {
     }
 }
 
-$(document).ready(function () {
+$(document).ready(function() {
 
     // kundendaten validation
 
     $("#stepper-next-kundendaten").prop("disabled", true);
     $("#stepper-next-kundendaten").css("cursor", "not-allowed");
 
-    $("#firstname-selfservice").on('input', function () {
+    $("#firstname-selfservice").on('input', function() {
         firstnameSelfseriveValid = $("#firstname-selfservice").val().length > 0;
         validateKundendaten();
     });
 
-    $("#lastname-selfservice").on('input', function () {
+    $("#lastname-selfservice").on('input', function() {
         lastnameSelfServiceValid = $("#lastname-selfservice").val().length > 0;
         validateKundendaten();
     });
 
-    $("#email-selfservice").on('input', function () {
+    $("#email-selfservice").on('input', function() {
         emailSelfserviceValid = $("#email-selfservice").val().length > 0;
         validateKundendaten();
     });
 
-    $("#phone-selfservice").on('input', function () {
+    $("#phone-selfservice").on('input', function() {
         phoneSelfservice = $("#phone-selfservice").val().length > 0;
         validateKundendaten();
     });
@@ -80,17 +80,17 @@ $(document).ready(function () {
 
     $("#stepper-next-address").prop("disabled", true).css("cursor", "not-allowed");
 
-    $("#streetname").on('input', function () {
+    $("#streetname").on('input', function() {
         streetnameSelfseriveValid = $("#streetname").val().length > 0;
         validateAddress();
     });
 
-    $("#plz").on('input', function () {
+    $("#plz").on('input', function() {
         plzSelfServiceValid = $("#plz").val().length > 0;
         validateAddress();
     });
 
-    $("#city").on('input', function () {
+    $("#city").on('input', function() {
         citySelfserviceValid = $("#city").val().length > 0;
         validateAddress();
     });
@@ -100,7 +100,7 @@ $(document).ready(function () {
 
     $("#stepper-next-accident-details").prop("disabled", true).css("cursor", "not-allowed");
 
-    $("#date-of-accident").on('input', function () {
+    $("#date-of-accident").on('input', function() {
         dateOfAccidentSelfserviceValid = $("#date-of-accident").val().length > 0;
         validateAccidentDate();
     });
@@ -141,19 +141,19 @@ var spanFotoupload = document.getElementById("close");
 
 document.body.style.overflow = "auto";
 
-btnFotoupload.onclick = function () {
+btnFotoupload.onclick = function() {
     modalFotoupload.style.display = "block";
     document.body.style.overflow = "hidden";
 };
 
 
-spanFotoupload.onclick = function () {
+spanFotoupload.onclick = function() {
     modalFotoupload.style.display = "none";
     document.body.style.overflow = "auto";
 
 };
 
-window.onclick = function (event) {
+window.onclick = function(event) {
     if (event.target === modalFotoupload) {
         modalFotoupload.style.display = "none";
         document.body.style.overflow = "auto";

@@ -625,7 +625,7 @@ body .modal-open {
 }
 
 .btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show > .btn-light.dropdown-toggle {
-    color: #212529;
+    color: #fff;
     background-color: #f39732;
     border-color: #f39732;
 }
