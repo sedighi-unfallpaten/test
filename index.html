@@ -147,7 +147,7 @@
         <header id="wrap" class="mobile-sticky">
             <div class="tes2 container">
                 <nav class="navbar navbar-expand-md">
-                    <a class="navbar-brand order-md-1 order-2" href="">
+                    <a class="navbar-brand order-md-1 order-2" href="" aria-label="unfallpaten-logo">
                         <img class="new-ver imgobenrechts" src="assets/img/page/unfallpaten-logo.png" alt="">
                     </a>
                     <div class="mobile-menu er">
@@ -287,7 +287,9 @@
                     <h2>Unfallgutachten bis&nbsp;Ersatzwagen</h2>
                     <p>Schadenabwicklung aus&nbsp;einer&nbsp;Hand</p>
                     <div class="banner-btn">
-                        <a href="tel:08005055050" class="fa fa-phone" aria-hidden="true"><span>&nbsp; 0800 505 50 50</span></a>
+                        <a href="tel:08005055050" class="fa fa-phone" aria-hidden="true">
+                            <span tabindex="-1">&nbsp; 0800 505 50 50</span>
+                        </a>
                         <a href="schaden-melden.html">Digital melden</a>
                     </div>
                     <ul>
@@ -490,7 +492,11 @@
                         <h3>Kostenlose Unfallabwicklung</h3>
                         <p>Als Geschädigter musst du weder finanziell in Vorleistung gehen, noch werden dir die Kosten später von deiner Schadensumme abgezogen</p>
                         <ul class="testtt free-accident-handling-btn">
-                            <li><a href="tel:08005055050" class="fa fa-phone" aria-hidden="true"><span>&nbsp; 0800 505 50 50</span></a></li>
+                            <li>
+                                <a href="tel:08005055050" class="fa fa-phone" aria-hidden="true">
+                                    <span tabindex="-1">&nbsp; 0800 505 50 50</span>
+                                </a>
+                            </li>
                             <li><a href="schaden-melden.html">Digital melden</a></li>
                         </ul>
                     </div>
@@ -605,6 +611,24 @@
                     </div>
                 </div>
             </section>
+            <script>
+                // Überprüfen, ob der Browser WebP unterstützt
+                var webpSupported = (function() {
+                    var elem = document.createElement('canvas');
+                    if (!!(elem.getContext && elem.getContext('2d'))) {
+                        return elem.toDataURL('image/webp').indexOf('data:image/webp') === 0;
+                    }
+                    return false;
+                })();
+
+                // Bildquelle basierend auf der Browserunterstützung setzen
+                var customerImage = document.getElementById('customer-image');
+                if (webpSupported) {
+                    customerImage.src = "assets/img/page/what-customer-say3.webp";
+                } else {
+                    customerImage.src = "assets/img/page/what-customer-say3.png";
+                }
+            </script>
             <section class="customers-say-wrap">
                 <div class="container">
                     <div class="customers-say-content">
@@ -624,8 +648,7 @@
                                     <a href="#" class="customers-say-slide-img">
                                         <picture>
                                             <source srcset="assets/img/page/what-customer-say3.webp" type="image/webp">
-                                            <source srcset="assets/img/page/what-customer-say3.png" type="image/png">
-                                            <img src="assets/img/page/what-customer-say3.png" alt="">
+                                            <img src="assets/img/page/what-customer-say3.png" alt="" id="customer-image">
                                         </picture>
                                     </a>
                                     <div class="customers-say-slide-content-inner">
@@ -683,8 +706,7 @@
                                     <a href="#" class="customers-say-slide-img">
                                         <picture>
                                             <source srcset="assets/img/page/what-customer-say3.webp" type="image/webp">
-                                            <source srcset="assets/img/page/what-customer-say3.png" type="image/png">
-                                            <img src="assets/img/page/what-customer-say3.png" alt="">
+                                            <img src="assets/img/page/what-customer-say3.png" alt="" id="customer-image">
                                         </picture>
                                     </a>
                                     <div class="customers-say-slide-content-inner">
@@ -728,7 +750,7 @@
         <footer>
             <div class="container">
                 <div class="footer-content">
-                    <a href="#" class="footer-logo">
+                    <a href="#" class="footer-logo" aria-label="unfallpaten-logo">
                         <img src="assets/img/page/unfallpaten-logo-white.png" alt="">
                     </a>
                     <p>Dein Pate für dein Anspruch bei der Versicherung</p>
