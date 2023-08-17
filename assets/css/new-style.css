@@ -552,31 +552,6 @@ header .navbar-nav li .dropdown-menu .fa:hover {
     color: #ff8113;
 }
 
-
-/*
-.claims-settlement-wrap .claims-settlement-content .bild1 {
-
-height: 90px;
-width: 100px;
-}
-.claims-settlement-wrap .claims-settlement-content .bild2 {
-
-	height: 90px;
-	width: 100px;
-}
-.claims-settlement-wrap .claims-settlement-content .bild3 {
-
-		height: 90px;
-		width: 100px;
-}
-.claims-settlement-wrap .claims-settlement-content .bild4 {
-
-		height: 90px;
-		width: 100px;
-}
-
-*/
-
 .banner .call-now {
     font-weight: bolder;
     font-family: Axiforma;
@@ -2709,15 +2684,23 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     }
     .claims-settlement-wrap .claims-settlement-content .bild2 {
         max-width: 105px;
+        width: 105px;
+        height: auto;
     }
     .claims-settlement-wrap .claims-settlement-content .bild3 {
         max-width: 105px;
+        width: 100px;
+        height: auto;
     }
     .claims-settlement-wrap .claims-settlement-content .bild4 {
-        max-width: 105px;
+        max-width: 125px;
+        width: 107px;
+        height: auto;
     }
     .claims-settlement-wrap .claims-settlement-content .bild1 {
         max-width: 135px;
+        width: 125px;
+        height: auto;
     }
     .claims-settlement-wrap .claims-settlement-content {
         padding: 22px 0 32px;
@@ -3337,12 +3320,18 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     }
     .claims-settlement-wrap .claims-settlement-content .bild1 {
         max-width: 120px;
+        width: 119px;
+        height: auto;
     }
     .claims-settlement-wrap .claims-settlement-content .bild2 {
-        max-width: 98px;
+        max-width: 105px;
+        width: 99px;
+        height: auto;
     }
     .claims-settlement-wrap .claims-settlement-content .bild3 {
         max-width: 98px;
+        width: 95px;
+        height: auto;
     }
     .claims-settlement-wrap .claims-settlement-content .bild4 {
         max-width: 98px;
@@ -3978,8 +3967,9 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
         padding: 0 22px;
     }
     .claims-settlement-wrap .claims-settlement-content .bild1 {
-        max-height: 80px;
         max-width: 100px;
+        width: 100px;
+        height: auto;
     }
     .claims-settlement-wrap .claims-settlement-content .bild2 {
         max-width: 82px;
@@ -5316,9 +5306,11 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     }
     .claims-settlement-wrap .claims-settlement-content .bild2 {
         max-width: 57px;
+        height: auto;
     }
     .claims-settlement-wrap .claims-settlement-content .bild3 {
         max-width: 57px;
+        height: auto;
     }
     .claims-settlement-wrap .claims-settlement-content .bild4 {
         max-width: 57px;
@@ -6234,6 +6226,7 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
     .claims-settlement-wrap .claims-settlement-content .bild2 {
         max-width: 70px;
         width: 100%;
+        height: auto;
     }
     .claims-settlement-wrap .claims-settlement-content .bild3 {
         max-width: 70px;
@@ -7127,19 +7120,23 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
 @media screen and (min-width:1710px) {
     .claims-settlement-wrap .claims-settlement-content .bild1 {
         max-width: 135px;
-        width: 100%;
+        width: 134px;
+        height: auto;
     }
     .claims-settlement-wrap .claims-settlement-content .bild2 {
-        max-width: 105px;
-        width: 100%;
+        max-width: 125px;
+        width: 110px;
+        height: auto;
     }
     .claims-settlement-wrap .claims-settlement-content .bild3 {
         max-width: 105px;
-        width: 100%;
+        width: 104px;
+        height: auto;
     }
     .claims-settlement-wrap .claims-settlement-content .bild4 {
-        max-width: 105px;
-        width: 100%;
+        max-width: 120px;
+        width: 115px;
+        height: auto;
     }
 }
 
@@ -7217,30 +7214,6 @@ header.index2-header .navbar-nav li .dropdown-menu .dropdown-item:hover {
         top: -24%;
     }
 }
-
-
-/* .wrapperr ul {
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    list-style: none;
-}
-
-.wrapperr ul li {
-    margin: 15px 0;
-
-}
-
-
-.wrapperr ul li a {
-    color: rgb(180, 11, 11);
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: 500;
-    padding: 5px 50px;
-} */
 
 .langimg {
     position: relative;
