@@ -380,7 +380,8 @@
                                 <li>
                                     <h4 style="font-size: large; font-weight: bolder;text-align:left; ">Die Unfallpaten helfen bei der Ersatzwagen-Suche</h4><br> Es ist wichtig, sich frühzeitig über seine Rechte zu informieren. Wir als Unfallpaten haben jahrelange Erfahrung in der Schadensabwicklung mit allen Versicherungen
                                     und wissen deshalb, dass die Versicherungen immer versuchen, Kosten einzusparen. Mit uns an der Seite bist du sicher unterwegs. Wir bieten eine umfassende Schadenabwicklung an, die bei einem unverschuldeten Autounfall
-                                    kostenlos ist. Unser Service beinhaltet neben der Ersatzwagen-Suche, das Stellen eines Kfz-Gutachters und das Einschalten eines Anwalts für Verkehrsrecht.</li>
+                                    kostenlos ist. Unser Service beinhaltet neben der Ersatzwagen-Suche, das Stellen eines <span id="meinLink_ersatzwagen" style="cursor: pointer; color: #000000; font-weight: normal;">Kfz-Gutachters</span> und das Einschalten
+                                    eines <span id="meinLink_ersatzwagen_zwei" style="cursor: pointer; color: #000000; font-weight: normal;">Anwalts</span> für Verkehrsrecht.</li>
                             </ul>
                             <!-- <a href="javascript:void(0); ">mehr lesen <img id="icon1 " onclick="changeicon( 'icon1') " src="assets/img/page/learn-more.png " alt=" "></a> -->
                         </div>
@@ -392,6 +393,14 @@
                     </div>
                 </div>
             </section>
+            <script>
+                document.getElementById("meinLink_ersatzwagen").addEventListener("click", function() {
+                    window.location.href = "https://www.unfallpaten.de/kfz-gutachter.html";
+                });
+                document.getElementById("meinLink_ersatzwagen_zwei").addEventListener("click", function() {
+                    window.location.href = "https://www.unfallpaten.de/anwalt.html";
+                });
+            </script>
             <section class="accident-sponsors-wrap compensation-loss-wrap">
                 <div class="container">
                     <div class="accident-sponsors-content counter-wrap">
