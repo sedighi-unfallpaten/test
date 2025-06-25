@@ -1,0 +1,337 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Unfallpaten",
+  "url": "https://www.unfallpaten.de",
+  "logo": "https://unfallpaten.de/assets/img/page/unfallpaten-logo.png",
+  "telephone": "+49 800 505 50 50",
+  "email": "kontakt@unfallpaten.de",
+  "description": "Deutschlandweiter Service für Unfallgeschädigte: Kfz-Gutachter, Gutachten, Mietwagen & Rechtsberatung – kostenlos bei unverschuldetem Unfall.",
+  "sameAs": [
+    "https://www.instagram.com/unfallpaten/",
+    "https://www.facebook.com/unfallpaten/",
+    "https://de.wikipedia.org/wiki/Unfallschaden",
+    "https://de.wikipedia.org/wiki/Kfz-Sachverst%C3%A4ndiger",
+    "https://de.wikipedia.org/wiki/Unfallersatztarif",
+    "https://de.wikipedia.org/wiki/Straßenverkehrsunfall",
+    "https://de.wikipedia.org/wiki/Fiktive_Abrechnung_in_der_Unfallregulierung",
+    "https://de.wikipedia.org/wiki/Nutzungsausfall"
+      ]
+    },  
+  "department": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Unfallpaten – Hamburg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Warnstedtstr. 28-32",
+        "addressLocality": "Hamburg",
+        "postalCode": "22525",
+        "addressCountry": "DE"
+      },
+      "telephone": "+49 TELEFON1",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.55108,
+        "longitude": 9.99368
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Unfallpaten – Bremen",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bremen",
+        "postalCode": "28239",
+        "addressCountry": "DE"
+      },
+      "telephone": "+49 800 505 50 50",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.124,
+        "longitude": 8.7464
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Unfallpaten – Berlin",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Berlin",
+        "postalCode": "13407",
+        "addressCountry": "DE"
+      },
+      "telephone": "+49 800 505 50 50",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 52.553,
+        "longitude": 13.298
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Unfallpaten – Lübeck",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lübeck",
+        "postalCode": "23564",
+        "addressCountry": "DE"
+      },
+      "telephone": "+49 800 505 50 50",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.867,
+        "longitude": 10.686
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Unfallpaten – München",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "München",
+        "postalCode": "80807",
+        "addressCountry": "DE"
+      },
+      "telephone": "+49 800 505 50 50",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 48.161,
+        "longitude": 11.603
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Unfallpaten – Stuttgart",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stuttgart",
+        "postalCode": "70435",
+        "addressCountry": "DE"
+      },
+      "telephone": "+49 800 505 50 50",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 48.783,
+        "longitude": 9.182
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Unfallpaten – Frankfurt am Main",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Frankfurt am Main",
+        "postalCode": "60311",
+        "addressCountry": "DE"
+      },
+      "telephone": "+49 800 505 50 50",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 50.111,
+        "longitude": 8.68
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Unfallpaten – Köln",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Köln",
+        "postalCode": "50935",
+        "addressCountry": "DE"
+      },
+      "telephone": "+49 800 505 50 50",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 50.94,
+        "longitude": 6.93
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Unfallpaten – Bonn",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bonn",
+        "postalCode": "53129",
+        "addressCountry": "DE"
+      },
+      "telephone": "+49 800 505 50 50",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 50.733,
+        "longitude": 7.1
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Unfallpaten – Dortmund",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dortmund",
+        "postalCode": "44145",
+        "addressCountry": "DE"
+      },
+      "telephone": "+49 800 505 50 50",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.513,
+        "longitude": 7.466
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Unfallpaten – Herne",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Herne",
+        "postalCode": "44629",
+        "addressCountry": "DE"
+      },
+      "telephone": "+49 800 505 50 50",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.536,
+        "longitude": 7.213
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Unfallpaten – Wuppertal",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Wuppertal",
+        "postalCode": "42103",
+        "addressCountry": "DE"
+      },
+      "telephone": "+49 800 505 50 50",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.27,
+        "longitude": 7.19
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Unfallpaten – Essen",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Essen",
+        "postalCode": "45141",
+        "addressCountry": "DE"
+      },
+      "telephone": "+49 800 505 50 50",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.459,
+        "longitude": 7.012
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Unfallpaten – Wiesbaden",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65189",
+        "addressCountry": "DE"
+      },
+      "telephone": "+49 800 505 50 50",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 50.078,
+        "longitude": 8.239
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Unfallpaten – Hanau",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Hanau",
+        "postalCode": "63450",
+        "addressCountry": "DE"
+      },
+      "telephone": "+49 800 505 50 50",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 50.131,
+        "longitude": 8.92
+      }
+    }
+  ],
+  "makeOffer": {
+    "@type": "Offer",
+    "itemOffered":{
+    "name": "Unfallschadenabwicklung",
+    "description": "Deutschlandweiter Service für Unfallgeschädigte: Kfz-Gutachter, Gutachten, Mietwagen & Rechtsberatung – kostenlos bei unverschuldetem Unfall.",
+    "sameAs": [
+      "https://de.wikipedia.org/wiki/Unfallschaden",
+      "https://de.wikipedia.org/wiki/Kfz-Sachverst%C3%A4ndiger",
+      "https://de.wikipedia.org/wiki/Mietwagen",
+      "https://de.wikipedia.org/wiki/Rechtsanwalt"
+    ], 
+    "provider": {
+      "@type": "Organization",
+      "name": "Unfallpaten",
+      "url": "https://www.unfallpaten.de"
+        }
+    }
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "Deutschland",
+      "sameAs": "https://www.wikidata.org/wiki/Q183"
+    },
+    "availableChannel": [
+        {
+      "@type": "ServiceChannel",
+      "serviceUrl": "https://www.unfallpaten.de/schaden-melden.html",
+      "availableLanguage": ["Deutsch", "Englisch"]
+    },
+        {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://wa.me/491234567890",
+        "availableLanguage": ["Deutsch", "Englisch"],
+        "servicePhone": {
+            "@type": "ContactPoint",
+            "telephone": "+49 800 505 50 50",
+            "contactType": "customer support"
+        }
+    }
+    ],
+    "isAccessibleForFree": true,
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Leistungsübersicht",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Kfz‑Gutachten vor Ort",
+            "description": "freie und unabhängige Begutachtung des Fahrzeugs durch zertifizierte Kfz-Gutachter direkt bei Ihnen – deutschlandweit und kostenlos."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Mietwagen",
+            "description": "Kostenloses Ersatzwagen bei einem Autounfall mit wirtschaftlichem Totalschaden oder während der Reparaturzeit."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Verkehrsrechtliche Erstberatung",
+            "description": "Unverbindliche rechtliche Unterstützung durch Anwälte – kostenfrei für Geschädigte. Neben einfachen eindeutigen Fällen, gerne auch komplizierte Fälle mit Auslandsbezug und Grüne-Karte."
+          }
+        }
+      ]
+    }
+  }
+</script>
